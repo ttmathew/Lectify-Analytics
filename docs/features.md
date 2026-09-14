@@ -1,6 +1,6 @@
 # Feature Walkthrough
 
-A plain-language look at what you can do with Financial Analytics Agent today, and what you get back.
+A plain-language look at what you can do with Lectify Analytics today, and what you get back.
 
 *Images below are illustrative mockups, not live product screenshots — see [screenshots/README.md](screenshots/README.md) for the shot list to swap in real captures.*
 
