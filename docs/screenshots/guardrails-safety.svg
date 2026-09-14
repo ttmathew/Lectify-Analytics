@@ -1,72 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 736" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
-  <rect x="0" y="0" width="640" height="736" rx="12" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 736" font-family="Lora, serif">
+  <rect x="0" y="0" width="640" height="736" rx="4" fill="#F3F2F2" stroke="#D1D0D0" stroke-width="1"/>
 
-  <rect x="492" y="16" width="132" height="24" rx="12" fill="#f0efec"/>
-  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#898781">ILLUSTRATIVE MOCKUP</text>
+  <rect x="492" y="16" width="132" height="24" rx="3" fill="#EAE9E9"/>
+  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#5F5E5D">ILLUSTRATIVE MOCKUP</text>
 
-  <text x="24" y="40" font-size="18" font-weight="700" fill="#0b0b0b">Guardrails &amp; Safety Monitoring</text>
-  <text x="24" y="60" font-size="12" fill="#898781">Screening every input and output for scope, safety, and injection risks</text>
+  <text x="24" y="42" font-family="'Cormorant Garamond', serif" font-size="22" font-weight="600" fill="#201F1D">Guardrails &amp; Safety Monitoring</text>
+  <text x="24" y="60" font-size="12" fill="#5F5E5D">Screening every input and output for scope, safety, and injection risks</text>
 
   <!-- stat tiles -->
-  <rect x="24" y="84" width="184" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="40" y="108" font-size="12" fill="#898781">REQUESTS SCREENED</text>
-  <text x="40" y="140" font-size="26" font-weight="700" fill="#0b0b0b">12,480</text>
-  <rect x="40" y="150" width="140" height="20" rx="10" fill="#f0efec"/>
-  <text x="52" y="164" font-size="11" fill="#52514e">100% coverage</text>
+  <rect x="24" y="84" width="184" height="96" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="40" y="106" font-size="10" letter-spacing="0.5" fill="#949393">REQUESTS SCREENED</text>
+  <text x="40" y="138" font-family="'Cormorant Garamond', serif" font-size="28" font-weight="600" fill="#201F1D">12,480</text>
+  <rect x="40" y="150" width="140" height="20" rx="3" fill="#F8F4F4"/>
+  <text x="52" y="164" font-size="11" fill="#444141">100% coverage</text>
 
-  <rect x="228" y="84" width="184" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="244" y="108" font-size="12" fill="#898781">FLAGGED FOR REVIEW</text>
-  <text x="244" y="140" font-size="26" font-weight="700" fill="#0b0b0b">1.4%</text>
-  <rect x="244" y="150" width="140" height="20" rx="10" fill="#fef3d9"/>
-  <text x="256" y="164" font-size="11" fill="#a16a00">38 this week</text>
+  <rect x="228" y="84" width="184" height="96" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="244" y="106" font-size="10" letter-spacing="0.5" fill="#949393">FLAGGED FOR REVIEW</text>
+  <text x="244" y="138" font-family="'Cormorant Garamond', serif" font-size="28" font-weight="600" fill="#201F1D">1.4%</text>
+  <rect x="244" y="150" width="140" height="20" rx="3" fill="#FFF3E4"/>
+  <text x="256" y="164" font-size="11" fill="#5A3B0A">38 this week</text>
 
-  <rect x="432" y="84" width="184" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="448" y="108" font-size="12" fill="#898781">BLOCKED OUTRIGHT</text>
-  <text x="448" y="140" font-size="26" font-weight="700" fill="#0b0b0b">0.3%</text>
-  <rect x="448" y="150" width="140" height="20" rx="10" fill="#fdece3"/>
-  <text x="460" y="164" font-size="11" fill="#a13d10">9 this week</text>
+  <rect x="432" y="84" width="184" height="96" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="448" y="106" font-size="10" letter-spacing="0.5" fill="#949393">BLOCKED OUTRIGHT</text>
+  <text x="448" y="138" font-family="'Cormorant Garamond', serif" font-size="28" font-weight="600" fill="#201F1D">0.3%</text>
+  <rect x="448" y="150" width="140" height="20" rx="3" fill="#FBEAE6"/>
+  <text x="460" y="164" font-size="11" fill="#7A3420">9 this week</text>
 
   <!-- trigger trend -->
-  <text x="24" y="210" font-size="13" font-weight="600" fill="#0b0b0b">Guardrail triggers — last 14 days</text>
+  <text x="24" y="210" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="600" fill="#201F1D">Guardrail triggers — last 14 days</text>
 
-  <line x1="60" y1="245" x2="600" y2="245" stroke="#e1e0d9" stroke-width="1"/>
-  <line x1="60" y1="287" x2="600" y2="287" stroke="#e1e0d9" stroke-width="1"/>
-  <line x1="60" y1="330" x2="600" y2="330" stroke="#c3c2b7" stroke-width="1.5"/>
+  <line x1="60" y1="245" x2="600" y2="245" stroke="#D1D0D0" stroke-width="1"/>
+  <line x1="60" y1="287" x2="600" y2="287" stroke="#D1D0D0" stroke-width="1"/>
+  <line x1="60" y1="330" x2="600" y2="330" stroke="#B9B7B1" stroke-width="1.5"/>
 
-  <path d="M 70 296 L 110 305 L 150 288 L 190 296 L 230 279 L 270 288 L 310 296 L 350 271 L 390 288 L 430 296 L 470 254 L 510 288 L 550 296 L 590 279 L 590 330 L 70 330 Z" fill="#cde2fb" opacity="0.55"/>
-  <polyline points="70,296 110,305 150,288 190,296 230,279 270,288 310,296 350,271 390,288 430,296 470,254 510,288 550,296 590,279" fill="none" stroke="#2a78d6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 70 296 L 110 305 L 150 288 L 190 296 L 230 279 L 270 288 L 310 296 L 350 271 L 390 288 L 430 296 L 470 254 L 510 288 L 550 296 L 590 279 L 590 330 L 70 330 Z" fill="#F0E4D0" opacity="0.7"/>
+  <polyline points="70,296 110,305 150,288 190,296 230,279 270,288 310,296 350,271 390,288 430,296 470,254 510,288 550,296 590,279" fill="none" stroke="#B68235" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
 
-  <text x="70" y="346" font-size="11" fill="#898781">-14d</text>
-  <text x="330" y="346" text-anchor="middle" font-size="11" fill="#898781">-7d</text>
-  <text x="590" y="346" text-anchor="end" font-size="11" fill="#898781">Today</text>
+  <text x="70" y="346" font-size="11" fill="#949393">-14d</text>
+  <text x="330" y="346" text-anchor="middle" font-size="11" fill="#949393">-7d</text>
+  <text x="590" y="346" text-anchor="end" font-size="11" fill="#949393">Today</text>
 
   <!-- triggers by category -->
-  <text x="24" y="384" font-size="13" font-weight="600" fill="#0b0b0b">Triggers by category — last 30 days</text>
+  <text x="24" y="384" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="600" fill="#201F1D">Triggers by category — last 30 days</text>
 
-  <text x="170" y="421" text-anchor="end" font-size="12" fill="#52514e">Off-topic request</text>
-  <rect x="180" y="404" width="410" height="24" rx="4" fill="#2a78d6"/>
-  <text x="582" y="421" text-anchor="end" font-size="12" font-weight="600" fill="#ffffff">52</text>
+  <text x="170" y="421" text-anchor="end" font-size="12" fill="#5F5E5D">Off-topic request</text>
+  <rect x="180" y="404" width="410" height="24" rx="3" fill="#B68235"/>
+  <text x="582" y="421" text-anchor="end" font-size="12" font-weight="600" fill="#FAF9F7">52</text>
 
-  <text x="170" y="465" text-anchor="end" font-size="12" fill="#52514e">PII detected</text>
-  <rect x="180" y="448" width="243" height="24" rx="4" fill="#9ec5f4"/>
-  <text x="431" y="465" font-size="12" fill="#52514e">31</text>
+  <text x="170" y="465" text-anchor="end" font-size="12" fill="#5F5E5D">PII detected</text>
+  <rect x="180" y="448" width="243" height="24" rx="3" fill="#E3D7BE"/>
+  <text x="431" y="465" font-size="12" fill="#5F5E5D">31</text>
 
-  <text x="170" y="509" text-anchor="end" font-size="12" fill="#52514e">Prompt injection</text>
-  <rect x="180" y="492" width="142" height="24" rx="4" fill="#9ec5f4"/>
-  <text x="330" y="509" font-size="12" fill="#52514e">18</text>
+  <text x="170" y="509" text-anchor="end" font-size="12" fill="#5F5E5D">Prompt injection</text>
+  <rect x="180" y="492" width="142" height="24" rx="3" fill="#E3D7BE"/>
+  <text x="330" y="509" font-size="12" fill="#5F5E5D">18</text>
 
-  <text x="170" y="553" text-anchor="end" font-size="12" fill="#52514e">Toxic content</text>
-  <rect x="180" y="536" width="55" height="24" rx="4" fill="#9ec5f4"/>
-  <text x="243" y="553" font-size="12" fill="#52514e">7</text>
+  <text x="170" y="553" text-anchor="end" font-size="12" fill="#5F5E5D">Toxic content</text>
+  <rect x="180" y="536" width="55" height="24" rx="3" fill="#E3D7BE"/>
+  <text x="243" y="553" font-size="12" fill="#5F5E5D">7</text>
 
   <!-- recently flagged -->
-  <text x="24" y="596" font-size="13" font-weight="600" fill="#0b0b0b">Recently flagged events</text>
-  <text x="40" y="616" font-size="12" fill="#52514e">Company Y — possible prompt injection detected — blocked</text>
-  <text x="40" y="632" font-size="12" fill="#52514e">Company X — PII pattern detected in input — redacted, allowed</text>
-  <text x="40" y="648" font-size="12" fill="#52514e">Company Z — out-of-scope request (investment advice) — declined</text>
+  <text x="24" y="596" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="600" fill="#201F1D">Recently flagged events</text>
+  <text x="40" y="616" font-size="12" fill="#5F5E5D">Company Y — possible prompt injection detected — blocked</text>
+  <text x="40" y="632" font-size="12" fill="#5F5E5D">Company X — PII pattern detected in input — redacted, allowed</text>
+  <text x="40" y="648" font-size="12" fill="#5F5E5D">Company Z — out-of-scope request (investment advice) — declined</text>
 
   <!-- good-status callout -->
-  <rect x="24" y="672" width="592" height="48" rx="10" fill="#e3f6e3"/>
-  <text x="40" y="692" font-size="12" font-weight="600" fill="#0b6b0b">No successful policy bypass detected this period.</text>
-  <text x="40" y="708" font-size="12" fill="#0b6b0b">Every flagged attempt was blocked or redacted before reaching the model or user.</text>
+  <rect x="24" y="672" width="592" height="48" rx="4" fill="#EAF2E1"/>
+  <text x="40" y="692" font-family="'Cormorant Garamond', serif" font-size="15" font-weight="600" fill="#3D5A1F">No successful policy bypass detected this period.</text>
+  <text x="40" y="708" font-size="12" fill="#3D5A1F">Every flagged attempt was blocked or redacted before reaching the model or user.</text>
 </svg>

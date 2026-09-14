@@ -6,10 +6,10 @@ A plain-language look at what you can do with Lectify Analytics today, and what 
 
 ## One workspace, built for business users
 
-Everything below lives inside a single workspace: search a company once, and every view — Q&A, trends, peer comparison, anomaly alerts, reports — stays scoped to that company until you search again. A quick snapshot of the company's key metrics is there the moment you land, before you've asked a single question.
+Everything below lives inside a single workspace: select a company once, and every view — computed metrics, source-linked narrative citations, natural-language Q&A, peer benchmarking, anomaly detection — stays scoped to that company. The overview screen gives you all of it at a glance the moment you land, before you've asked a single question.
 
-![Business workspace home screen](screenshots/business-workspace.png)
-*Example: search a company, see a quick snapshot, then jump to any view.*
+![Business workspace overview screen](screenshots/business-workspace.png)
+*Example: metrics, citations, Q&A, benchmarking, and anomaly detection, all for the selected company.*
 
 ## Ask questions in plain English
 

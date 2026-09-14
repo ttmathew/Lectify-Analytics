@@ -48,8 +48,8 @@ In short: the reasoning happens like a chatbot, but nothing reaches the user's s
 
 ## See it in action
 
-![Business workspace home screen](docs/screenshots/business-workspace.png)
-*The business workspace — search a company, see a quick snapshot, then jump to any view*
+![Business workspace overview screen](docs/screenshots/business-workspace.png)
+*The workspace overview for a selected company — computed metrics, source-linked citations, natural-language Q&A, peer benchmarking, and anomaly detection in one view*
 
 | | |
 |---|---|

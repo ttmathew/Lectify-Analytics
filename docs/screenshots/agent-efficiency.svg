@@ -1,102 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
-  <rect x="0" y="0" width="640" height="640" rx="12" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" font-family="Lora, serif">
+  <rect x="0" y="0" width="640" height="640" rx="4" fill="#F3F2F2" stroke="#D1D0D0" stroke-width="1"/>
 
-  <rect x="492" y="16" width="132" height="24" rx="12" fill="#f0efec"/>
-  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#898781">ILLUSTRATIVE MOCKUP</text>
+  <rect x="492" y="16" width="132" height="24" rx="3" fill="#EAE9E9"/>
+  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#5F5E5D">ILLUSTRATIVE MOCKUP</text>
 
-  <text x="24" y="40" font-size="18" font-weight="700" fill="#0b0b0b">Agentic Efficiency Monitoring</text>
-  <text x="24" y="60" font-size="12" fill="#898781">Tracking tool-call patterns to catch redundant work and runaway loops</text>
+  <text x="24" y="42" font-family="'Cormorant Garamond', serif" font-size="22" font-weight="600" fill="#201F1D">Agentic Efficiency Monitoring</text>
+  <text x="24" y="60" font-size="12" fill="#5F5E5D">Tracking tool-call patterns to catch redundant work and runaway loops</text>
 
   <!-- stat tiles -->
-  <rect x="24" y="84" width="184" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="40" y="108" font-size="12" fill="#898781">AVG TOOL CALLS</text>
-  <text x="40" y="140" font-size="26" font-weight="700" fill="#0b0b0b">3.2</text>
-  <rect x="40" y="150" width="140" height="20" rx="10" fill="#e3f6e3"/>
-  <text x="52" y="164" font-size="11" fill="#0b6b0b">-0.4 vs. last week</text>
+  <rect x="24" y="84" width="184" height="96" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="40" y="106" font-size="10" letter-spacing="0.5" fill="#949393">AVG TOOL CALLS</text>
+  <text x="40" y="138" font-family="'Cormorant Garamond', serif" font-size="28" font-weight="600" fill="#201F1D">3.2</text>
+  <rect x="40" y="150" width="140" height="20" rx="3" fill="#EAF2E1"/>
+  <text x="52" y="164" font-size="11" fill="#3D5A1F">-0.4 vs. last week</text>
 
-  <rect x="228" y="84" width="184" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="244" y="108" font-size="12" fill="#898781">REDUNDANT CALLS</text>
-  <text x="244" y="140" font-size="26" font-weight="700" fill="#0b0b0b">4.1%</text>
-  <rect x="244" y="150" width="140" height="20" rx="10" fill="#fef3d9"/>
-  <text x="256" y="164" font-size="11" fill="#a16a00">12 flagged this week</text>
+  <rect x="228" y="84" width="184" height="96" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="244" y="106" font-size="10" letter-spacing="0.5" fill="#949393">REDUNDANT CALLS</text>
+  <text x="244" y="138" font-family="'Cormorant Garamond', serif" font-size="28" font-weight="600" fill="#201F1D">4.1%</text>
+  <rect x="244" y="150" width="140" height="20" rx="3" fill="#FFF3E4"/>
+  <text x="256" y="164" font-size="11" fill="#5A3B0A">12 flagged this week</text>
 
-  <rect x="432" y="84" width="184" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="448" y="108" font-size="12" fill="#898781">P95 LATENCY</text>
-  <text x="448" y="140" font-size="26" font-weight="700" fill="#0b0b0b">6.8s</text>
-  <rect x="448" y="150" width="140" height="20" rx="10" fill="#e3f6e3"/>
-  <text x="460" y="164" font-size="11" fill="#0b6b0b">-1.2s vs. last week</text>
+  <rect x="432" y="84" width="184" height="96" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="448" y="106" font-size="10" letter-spacing="0.5" fill="#949393">P95 LATENCY</text>
+  <text x="448" y="138" font-family="'Cormorant Garamond', serif" font-size="28" font-weight="600" fill="#201F1D">6.8s</text>
+  <rect x="448" y="150" width="140" height="20" rx="3" fill="#EAF2E1"/>
+  <text x="460" y="164" font-size="11" fill="#3D5A1F">-1.2s vs. last week</text>
 
   <!-- trace example -->
-  <text x="24" y="210" font-size="13" font-weight="600" fill="#0b0b0b">Tool-call trace — flagged example</text>
-  <text x="24" y="228" font-size="11" fill="#898781">Example: one multi-part question's tool-call sequence</text>
+  <text x="24" y="210" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="600" fill="#201F1D">Tool-call trace — flagged example</text>
+  <text x="24" y="228" font-size="11" fill="#949393">Example: one multi-part question's tool-call sequence</text>
 
   <!-- flagged tag above box 2 -->
-  <rect x="142" y="234" width="100" height="16" rx="8" fill="#fef3d9"/>
-  <text x="192" y="246" text-anchor="middle" font-size="9" font-weight="700" fill="#a16a00">DUPLICATE</text>
+  <rect x="142" y="234" width="100" height="16" rx="3" fill="#FFF3E4"/>
+  <text x="192" y="246" text-anchor="middle" font-size="9" font-weight="700" fill="#5A3B0A">DUPLICATE</text>
 
   <!-- box 1 -->
-  <rect x="24" y="256" width="100" height="56" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="74" y="278" text-anchor="middle" font-size="11" fill="#0b0b0b">Fetch</text>
-  <text x="74" y="296" text-anchor="middle" font-size="11" fill="#0b0b0b">metrics</text>
-  <text x="74" y="328" text-anchor="middle" font-size="11" fill="#898781">0.4s</text>
+  <rect x="24" y="256" width="100" height="56" rx="3" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="74" y="278" text-anchor="middle" font-size="11" fill="#201F1D">Fetch</text>
+  <text x="74" y="296" text-anchor="middle" font-size="11" fill="#201F1D">metrics</text>
+  <text x="74" y="328" text-anchor="middle" font-size="11" fill="#949393">0.4s</text>
 
   <!-- box 2 (flagged duplicate) -->
-  <rect x="142" y="256" width="100" height="56" rx="8" fill="#fef3d9" stroke="#a16a00" stroke-width="1.5"/>
-  <text x="192" y="278" text-anchor="middle" font-size="11" fill="#7a5100">Fetch</text>
-  <text x="192" y="296" text-anchor="middle" font-size="11" fill="#7a5100">metrics</text>
-  <text x="192" y="328" text-anchor="middle" font-size="11" fill="#a16a00">0.4s</text>
+  <rect x="142" y="256" width="100" height="56" rx="3" fill="#FFF3E4" stroke="#5A3B0A" stroke-width="1.5"/>
+  <text x="192" y="278" text-anchor="middle" font-size="11" fill="#5A3B0A">Fetch</text>
+  <text x="192" y="296" text-anchor="middle" font-size="11" fill="#5A3B0A">metrics</text>
+  <text x="192" y="328" text-anchor="middle" font-size="11" fill="#5A3B0A">0.4s</text>
 
   <!-- box 3 -->
-  <rect x="260" y="256" width="100" height="56" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="310" y="278" text-anchor="middle" font-size="11" fill="#0b0b0b">Peer</text>
-  <text x="310" y="296" text-anchor="middle" font-size="11" fill="#0b0b0b">benchmark</text>
-  <text x="310" y="328" text-anchor="middle" font-size="11" fill="#898781">0.6s</text>
+  <rect x="260" y="256" width="100" height="56" rx="3" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="310" y="278" text-anchor="middle" font-size="11" fill="#201F1D">Peer</text>
+  <text x="310" y="296" text-anchor="middle" font-size="11" fill="#201F1D">benchmark</text>
+  <text x="310" y="328" text-anchor="middle" font-size="11" fill="#949393">0.6s</text>
 
   <!-- box 4 -->
-  <rect x="378" y="256" width="100" height="56" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="428" y="278" text-anchor="middle" font-size="11" fill="#0b0b0b">Search</text>
-  <text x="428" y="296" text-anchor="middle" font-size="11" fill="#0b0b0b">narrative</text>
-  <text x="428" y="328" text-anchor="middle" font-size="11" fill="#898781">0.3s</text>
+  <rect x="378" y="256" width="100" height="56" rx="3" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="428" y="278" text-anchor="middle" font-size="11" fill="#201F1D">Search</text>
+  <text x="428" y="296" text-anchor="middle" font-size="11" fill="#201F1D">narrative</text>
+  <text x="428" y="328" text-anchor="middle" font-size="11" fill="#949393">0.3s</text>
 
   <!-- box 5 -->
-  <rect x="496" y="256" width="100" height="56" rx="8" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="546" y="278" text-anchor="middle" font-size="11" fill="#0b0b0b">Verify</text>
-  <text x="546" y="296" text-anchor="middle" font-size="11" fill="#0b0b0b">claims</text>
-  <text x="546" y="328" text-anchor="middle" font-size="11" fill="#898781">0.5s</text>
+  <rect x="496" y="256" width="100" height="56" rx="3" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="546" y="278" text-anchor="middle" font-size="11" fill="#201F1D">Verify</text>
+  <text x="546" y="296" text-anchor="middle" font-size="11" fill="#201F1D">claims</text>
+  <text x="546" y="328" text-anchor="middle" font-size="11" fill="#949393">0.5s</text>
 
   <!-- connectors -->
-  <line x1="126" y1="284" x2="136" y2="284" stroke="#c3c2b7" stroke-width="1.5"/>
-  <polygon points="136,279 136,289 142,284" fill="#c3c2b7"/>
-  <line x1="244" y1="284" x2="254" y2="284" stroke="#c3c2b7" stroke-width="1.5"/>
-  <polygon points="254,279 254,289 260,284" fill="#c3c2b7"/>
-  <line x1="362" y1="284" x2="372" y2="284" stroke="#c3c2b7" stroke-width="1.5"/>
-  <polygon points="372,279 372,289 378,284" fill="#c3c2b7"/>
-  <line x1="480" y1="284" x2="490" y2="284" stroke="#c3c2b7" stroke-width="1.5"/>
-  <polygon points="490,279 490,289 496,284" fill="#c3c2b7"/>
+  <line x1="126" y1="284" x2="136" y2="284" stroke="#B9B7B1" stroke-width="1.5"/>
+  <polygon points="136,279 136,289 142,284" fill="#B9B7B1"/>
+  <line x1="244" y1="284" x2="254" y2="284" stroke="#B9B7B1" stroke-width="1.5"/>
+  <polygon points="254,279 254,289 260,284" fill="#B9B7B1"/>
+  <line x1="362" y1="284" x2="372" y2="284" stroke="#B9B7B1" stroke-width="1.5"/>
+  <polygon points="372,279 372,289 378,284" fill="#B9B7B1"/>
+  <line x1="480" y1="284" x2="490" y2="284" stroke="#B9B7B1" stroke-width="1.5"/>
+  <polygon points="490,279 490,289 496,284" fill="#B9B7B1"/>
 
   <!-- calls by tool -->
-  <text x="24" y="364" font-size="13" font-weight="600" fill="#0b0b0b">Calls by tool — last 7 days</text>
+  <text x="24" y="364" font-family="'Cormorant Garamond', serif" font-size="16" font-weight="600" fill="#201F1D">Calls by tool — last 7 days</text>
 
-  <text x="170" y="401" text-anchor="end" font-size="12" fill="#52514e">Fetch metrics</text>
-  <rect x="180" y="384" width="410" height="24" rx="4" fill="#2a78d6"/>
-  <text x="582" y="401" text-anchor="end" font-size="12" font-weight="600" fill="#ffffff">156</text>
+  <text x="170" y="401" text-anchor="end" font-size="12" fill="#5F5E5D">Fetch metrics</text>
+  <rect x="180" y="384" width="410" height="24" rx="3" fill="#B68235"/>
+  <text x="582" y="401" text-anchor="end" font-size="12" font-weight="600" fill="#FAF9F7">156</text>
 
-  <text x="170" y="445" text-anchor="end" font-size="12" fill="#52514e">Verify claims</text>
-  <rect x="180" y="428" width="341" height="24" rx="4" fill="#9ec5f4"/>
-  <text x="529" y="445" font-size="12" fill="#52514e">130</text>
+  <text x="170" y="445" text-anchor="end" font-size="12" fill="#5F5E5D">Verify claims</text>
+  <rect x="180" y="428" width="341" height="24" rx="3" fill="#E3D7BE"/>
+  <text x="529" y="445" font-size="12" fill="#5F5E5D">130</text>
 
-  <text x="170" y="489" text-anchor="end" font-size="12" fill="#52514e">Peer benchmark</text>
-  <rect x="180" y="472" width="258" height="24" rx="4" fill="#9ec5f4"/>
-  <text x="446" y="489" font-size="12" fill="#52514e">98</text>
+  <text x="170" y="489" text-anchor="end" font-size="12" fill="#5F5E5D">Peer benchmark</text>
+  <rect x="180" y="472" width="258" height="24" rx="3" fill="#E3D7BE"/>
+  <text x="446" y="489" font-size="12" fill="#5F5E5D">98</text>
 
-  <text x="170" y="533" text-anchor="end" font-size="12" fill="#52514e">Search narrative</text>
-  <rect x="180" y="516" width="229" height="24" rx="4" fill="#9ec5f4"/>
-  <text x="417" y="533" font-size="12" fill="#52514e">87</text>
+  <text x="170" y="533" text-anchor="end" font-size="12" fill="#5F5E5D">Search narrative</text>
+  <rect x="180" y="516" width="229" height="24" rx="3" fill="#E3D7BE"/>
+  <text x="417" y="533" font-size="12" fill="#5F5E5D">87</text>
 
   <!-- alert callout -->
-  <rect x="24" y="568" width="592" height="40" rx="10" fill="#fef3d9"/>
-  <polygon points="47,575 40,588 54,588" fill="none" stroke="#a16a00" stroke-width="1.6" stroke-linejoin="round"/>
-  <line x1="47" y1="579" x2="47" y2="583" stroke="#a16a00" stroke-width="1.6" stroke-linecap="round"/>
-  <circle cx="47" cy="586" r="0.9" fill="#a16a00"/>
-  <text x="64" y="592" font-size="12" fill="#a16a00">Redundant-retrieval pattern detected 12 times this week — flagged for review.</text>
+  <rect x="24" y="568" width="592" height="40" rx="4" fill="#FFF3E4"/>
+  <polygon points="47,575 40,588 54,588" fill="none" stroke="#5A3B0A" stroke-width="1.6" stroke-linejoin="round"/>
+  <line x1="47" y1="579" x2="47" y2="583" stroke="#5A3B0A" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="47" cy="586" r="0.9" fill="#5A3B0A"/>
+  <text x="64" y="592" font-size="12" fill="#5A3B0A">Redundant-retrieval pattern detected 12 times this week — flagged for review.</text>
 </svg>

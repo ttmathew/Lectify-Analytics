@@ -1,32 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
-  <rect x="0" y="0" width="640" height="400" rx="12" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Lora, serif">
+  <rect x="0" y="0" width="640" height="400" rx="4" fill="#F3F2F2" stroke="#D1D0D0" stroke-width="1"/>
 
-  <rect x="492" y="16" width="132" height="24" rx="12" fill="#f0efec"/>
-  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#898781">ILLUSTRATIVE MOCKUP</text>
+  <rect x="492" y="16" width="132" height="24" rx="3" fill="#EAE9E9"/>
+  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#5F5E5D">ILLUSTRATIVE MOCKUP</text>
 
-  <text x="24" y="40" font-size="16" font-weight="700" fill="#0b0b0b">Claim Verification</text>
-  <text x="24" y="60" font-size="12" fill="#898781">Every numeric claim is independently re-checked before it reaches the answer</text>
+  <text x="24" y="40" font-family="'Cormorant Garamond', serif" font-size="20" font-weight="600" fill="#201F1D">Claim Verification</text>
+  <text x="24" y="60" font-size="12" fill="#5F5E5D">Every numeric claim is independently re-checked before it reaches the answer</text>
 
   <!-- verified claim -->
-  <rect x="24" y="88" width="592" height="92" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="44" y="114" font-size="14" fill="#0b0b0b">"Company X's free cash flow was <tspan font-weight="700">$99.6 billion</tspan> in FY2025."</text>
-  <rect x="44" y="128" width="100" height="28" rx="14" fill="#e3f6e3"/>
-  <path d="M 60 142 l 6 6 l 11 -12" fill="none" stroke="#0ca30c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="98" y="147" text-anchor="middle" font-size="12" font-weight="600" fill="#0b6b0b">Verified</text>
-  <text x="160" y="147" font-size="12" fill="#52514e">matched against reported free cash flow: $99,584,000,000</text>
+  <rect x="24" y="88" width="592" height="92" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="44" y="114" font-size="14" fill="#201F1D">"Company X's free cash flow was <tspan font-weight="700">$99.6 billion</tspan> in FY2025."</text>
+  <rect x="44" y="128" width="100" height="28" rx="3" fill="#EAF2E1"/>
+  <path d="M 60 142 l 6 6 l 11 -12" fill="none" stroke="#3D5A1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="98" y="147" text-anchor="middle" font-size="12" font-weight="600" fill="#3D5A1F">Verified</text>
+  <text x="160" y="147" font-size="12" fill="#5F5E5D">matched against reported free cash flow: $99,584,000,000</text>
 
   <!-- unverifiable claim -->
-  <rect x="24" y="196" width="592" height="92" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="44" y="222" font-size="14" fill="#0b0b0b">"Company X's free cash flow declined by nearly <tspan font-weight="700">$10 billion</tspan>."</text>
-  <rect x="44" y="236" width="132" height="28" rx="14" fill="#fef3d9"/>
-  <circle cx="60" cy="250" r="6" fill="none" stroke="#a16a00" stroke-width="1.8"/>
-  <path d="M 60 246 l 0 4 l 3 3" fill="none" stroke="#a16a00" stroke-width="1.6" stroke-linecap="round"/>
-  <text x="122" y="255" text-anchor="middle" font-size="12" font-weight="600" fill="#a16a00">Unverifiable</text>
-  <text x="192" y="255" font-size="12" fill="#52514e">no matching figure with enough</text>
-  <text x="192" y="270" font-size="12" fill="#52514e">confidence — shown honestly, not guessed</text>
+  <rect x="24" y="196" width="592" height="92" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="44" y="222" font-size="14" fill="#201F1D">"Company X's free cash flow declined by nearly <tspan font-weight="700">$10 billion</tspan>."</text>
+  <rect x="44" y="236" width="132" height="28" rx="3" fill="#FFF3E4"/>
+  <circle cx="60" cy="250" r="6" fill="none" stroke="#5A3B0A" stroke-width="1.8"/>
+  <path d="M 60 246 l 0 4 l 3 3" fill="none" stroke="#5A3B0A" stroke-width="1.6" stroke-linecap="round"/>
+  <text x="122" y="255" text-anchor="middle" font-size="12" font-weight="600" fill="#5A3B0A">Unverifiable</text>
+  <text x="192" y="255" font-size="12" fill="#5F5E5D">no matching figure with enough</text>
+  <text x="192" y="270" font-size="12" fill="#5F5E5D">confidence — shown honestly, not guessed</text>
 
   <!-- footer -->
-  <rect x="24" y="312" width="592" height="60" rx="10" fill="#f9f9f7" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="40" y="336" font-size="12" font-weight="600" fill="#0b0b0b">Why this matters</text>
-  <text x="40" y="354" font-size="12" fill="#52514e">A claim the system can't confirm is flagged, never silently passed through as fact.</text>
+  <rect x="24" y="312" width="592" height="60" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="40" y="336" font-family="'Cormorant Garamond', serif" font-size="15" font-weight="600" fill="#201F1D">Why this matters</text>
+  <text x="40" y="354" font-size="12" fill="#5F5E5D">A claim the system can't confirm is flagged, never silently passed through as fact.</text>
 </svg>

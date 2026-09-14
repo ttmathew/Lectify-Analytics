@@ -1,42 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
-  <rect x="0" y="0" width="640" height="400" rx="12" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Lora, serif">
+  <rect x="0" y="0" width="640" height="400" rx="4" fill="#F3F2F2" stroke="#D1D0D0" stroke-width="1"/>
 
-  <rect x="492" y="16" width="132" height="24" rx="12" fill="#f0efec"/>
-  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#898781">ILLUSTRATIVE MOCKUP</text>
+  <rect x="492" y="16" width="132" height="24" rx="3" fill="#EAE9E9"/>
+  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#5F5E5D">ILLUSTRATIVE MOCKUP</text>
 
-  <text x="24" y="40" font-size="16" font-weight="700" fill="#0b0b0b">Operating Margin — Peer Comparison</text>
-  <text x="24" y="58" font-size="12" fill="#898781">Fiscal Year 2025 · click a bar to drill into the underlying figures</text>
+  <text x="24" y="40" font-family="'Cormorant Garamond', serif" font-size="20" font-weight="600" fill="#201F1D">Operating Margin — Peer Comparison</text>
+  <text x="24" y="58" font-size="12" fill="#5F5E5D">Fiscal Year 2025 · click a bar to drill into the underlying figures</text>
 
   <!-- gridlines: baseline y=270, top gridline y=90 -->
-  <line x1="80" y1="90" x2="580" y2="90" stroke="#e1e0d9" stroke-width="1"/>
-  <line x1="80" y1="150" x2="580" y2="150" stroke="#e1e0d9" stroke-width="1"/>
-  <line x1="80" y1="210" x2="580" y2="210" stroke="#e1e0d9" stroke-width="1"/>
-  <line x1="80" y1="270" x2="580" y2="270" stroke="#c3c2b7" stroke-width="1.5"/>
+  <line x1="80" y1="90" x2="580" y2="90" stroke="#D1D0D0" stroke-width="1"/>
+  <line x1="80" y1="150" x2="580" y2="150" stroke="#D1D0D0" stroke-width="1"/>
+  <line x1="80" y1="210" x2="580" y2="210" stroke="#D1D0D0" stroke-width="1"/>
+  <line x1="80" y1="270" x2="580" y2="270" stroke="#B9B7B1" stroke-width="1.5"/>
 
   <!-- bars: baseline y=270, ~4.6px per point -->
-  <!-- Company X: 31.5% -> height 145 -->
-  <rect x="140" y="125" width="110" height="145" rx="4" fill="#2a78d6"/>
-  <text x="195" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#0b0b0b">31.5%</text>
-  <text x="195" y="288" text-anchor="middle" font-size="13" font-weight="600" fill="#0b0b0b">Company X</text>
+  <rect x="140" y="125" width="110" height="145" rx="3" fill="#B68235"/>
+  <text x="195" y="112" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="17" font-weight="600" fill="#201F1D">31.5%</text>
+  <text x="195" y="288" text-anchor="middle" font-size="13" font-weight="600" fill="#201F1D">Company X</text>
 
-  <!-- Company Y: 24.2% -> height 111 -->
-  <rect x="300" y="159" width="110" height="111" rx="4" fill="#e1e0d9"/>
-  <text x="355" y="146" text-anchor="middle" font-size="14" fill="#52514e">24.2%</text>
-  <text x="355" y="288" text-anchor="middle" font-size="13" fill="#52514e">Company Y</text>
+  <rect x="300" y="159" width="110" height="111" rx="3" fill="#E3D7BE"/>
+  <text x="355" y="146" text-anchor="middle" font-size="14" fill="#5F5E5D">24.2%</text>
+  <text x="355" y="288" text-anchor="middle" font-size="13" fill="#5F5E5D">Company Y</text>
 
-  <!-- Company Z: 19.8% -> height 91 -->
-  <rect x="460" y="179" width="110" height="91" rx="4" fill="#e1e0d9"/>
-  <text x="515" y="166" text-anchor="middle" font-size="14" fill="#52514e">19.8%</text>
-  <text x="515" y="288" text-anchor="middle" font-size="13" fill="#52514e">Company Z</text>
+  <rect x="460" y="179" width="110" height="91" rx="3" fill="#E3D7BE"/>
+  <text x="515" y="166" text-anchor="middle" font-size="14" fill="#5F5E5D">19.8%</text>
+  <text x="515" y="288" text-anchor="middle" font-size="13" fill="#5F5E5D">Company Z</text>
 
   <!-- legend -->
-  <rect x="24" y="308" width="14" height="14" rx="3" fill="#2a78d6"/>
-  <text x="44" y="319" font-size="12" fill="#52514e">Company being analyzed (Company X)</text>
-  <rect x="320" y="308" width="14" height="14" rx="3" fill="#e1e0d9"/>
-  <text x="340" y="319" font-size="12" fill="#52514e">Peer companies</text>
+  <rect x="24" y="308" width="14" height="14" rx="2" fill="#B68235"/>
+  <text x="44" y="319" font-size="12" fill="#5F5E5D">Company being analyzed (Company X)</text>
+  <rect x="320" y="308" width="14" height="14" rx="2" fill="#E3D7BE"/>
+  <text x="340" y="319" font-size="12" fill="#5F5E5D">Peer companies</text>
 
   <!-- drill-down example footer -->
-  <rect x="24" y="334" width="592" height="46" rx="10" fill="#f9f9f7" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="40" y="353" font-size="12" font-weight="600" fill="#0b0b0b">Example drill-down — Company X:</text>
-  <text x="40" y="370" font-size="12" fill="#52514e">Operating income $30.8B on revenue $96.2B, sourced from the FY2025 Annual Report.</text>
+  <rect x="24" y="334" width="592" height="46" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="40" y="353" font-family="'Cormorant Garamond', serif" font-size="14" font-weight="600" fill="#201F1D">Example drill-down — Company X:</text>
+  <text x="40" y="370" font-size="12" fill="#5F5E5D">Operating income $30.8B on revenue $96.2B, sourced from the FY2025 Annual Report.</text>
 </svg>

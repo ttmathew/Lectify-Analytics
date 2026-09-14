@@ -1,55 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
-  <rect x="0" y="0" width="640" height="400" rx="12" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Lora, serif">
+  <rect x="0" y="0" width="640" height="400" rx="4" fill="#F3F2F2" stroke="#D1D0D0" stroke-width="1"/>
 
-  <rect x="492" y="16" width="132" height="24" rx="12" fill="#f0efec"/>
-  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#898781">ILLUSTRATIVE MOCKUP</text>
+  <rect x="492" y="16" width="132" height="24" rx="3" fill="#EAE9E9"/>
+  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#5F5E5D">ILLUSTRATIVE MOCKUP</text>
 
-  <text x="24" y="40" font-size="18" font-weight="700" fill="#0b0b0b">Company Report — Company X</text>
-  <text x="24" y="60" font-size="13" fill="#898781">Fiscal Year 2025 · Performance, peer &amp; industry comparison, drivers of change</text>
+  <text x="24" y="40" font-family="'Cormorant Garamond', serif" font-size="20" font-weight="600" fill="#201F1D">Company Report — Company X</text>
+  <text x="24" y="60" font-size="12" fill="#5F5E5D">Fiscal Year 2025 · Performance, peer &amp; industry comparison, drivers of change</text>
 
   <!-- stat tiles -->
-  <g>
-    <rect x="24" y="84" width="180" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-    <text x="40" y="108" font-size="12" fill="#898781">REVENUE</text>
-    <text x="40" y="140" font-size="26" font-weight="700" fill="#0b0b0b">$96.2B</text>
-    <rect x="40" y="150" width="62" height="20" rx="10" fill="#e3f6e3"/>
-    <text x="71" y="164" text-anchor="middle" font-size="11" font-weight="600" fill="#0b6b0b">▲ 6.1%</text>
-  </g>
+  <rect x="24" y="84" width="184" height="76" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="40" y="104" font-size="10" letter-spacing="0.5" fill="#949393">REVENUE</text>
+  <text x="40" y="132" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="600" fill="#201F1D">$96.2B</text>
+  <polygon points="43,142 40,148 46,148" fill="#3D5A1F"/>
+  <text x="50" y="150" font-size="11" fill="#3D5A1F">6.1%</text>
 
-  <g>
-    <rect x="216" y="84" width="180" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-    <text x="232" y="108" font-size="12" fill="#898781">OPERATING MARGIN</text>
-    <text x="232" y="140" font-size="26" font-weight="700" fill="#0b0b0b">31.5%</text>
-    <rect x="232" y="150" width="82" height="20" rx="10" fill="#e3f6e3"/>
-    <text x="273" y="164" text-anchor="middle" font-size="11" font-weight="600" fill="#0b6b0b">▲ 1.7 pts</text>
-  </g>
+  <rect x="228" y="84" width="184" height="76" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="244" y="104" font-size="10" letter-spacing="0.5" fill="#949393">OPERATING MARGIN</text>
+  <text x="244" y="132" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="600" fill="#201F1D">31.5%</text>
+  <polygon points="247,142 244,148 250,148" fill="#3D5A1F"/>
+  <text x="254" y="150" font-size="11" fill="#3D5A1F">1.7 pts</text>
 
-  <g>
-    <rect x="408" y="84" width="208" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
-    <text x="424" y="108" font-size="12" fill="#898781">FREE CASH FLOW</text>
-    <text x="424" y="140" font-size="26" font-weight="700" fill="#0b0b0b">$99.6B</text>
-    <rect x="424" y="150" width="66" height="20" rx="10" fill="#fdece3"/>
-    <text x="457" y="164" text-anchor="middle" font-size="11" font-weight="600" fill="#a13d10">▼ 3.2%</text>
-  </g>
+  <rect x="432" y="84" width="184" height="76" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="448" y="104" font-size="10" letter-spacing="0.5" fill="#949393">FREE CASH FLOW</text>
+  <text x="448" y="132" font-family="'Cormorant Garamond', serif" font-size="24" font-weight="600" fill="#201F1D">$99.6B</text>
+  <polygon points="448,142 454,142 451,148" fill="#7A3420"/>
+  <text x="458" y="150" font-size="11" fill="#7A3420">3.2%</text>
 
   <!-- revenue trend mini chart -->
-  <text x="24" y="210" font-size="13" font-weight="600" fill="#0b0b0b">Revenue trend</text>
+  <text x="24" y="192" font-family="'Cormorant Garamond', serif" font-size="15" font-weight="600" fill="#201F1D">Revenue trend</text>
   <g>
-    <line x1="24" y1="290" x2="616" y2="290" stroke="#c3c2b7" stroke-width="1"/>
-    <rect x="44" y="250" width="48" height="40" rx="4" fill="#cde2fb"/>
-    <rect x="132" y="230" width="48" height="60" rx="4" fill="#9ec5f4"/>
-    <rect x="220" y="205" width="48" height="85" rx="4" fill="#5598e7"/>
-    <rect x="308" y="180" width="48" height="110" rx="4" fill="#2a78d6"/>
-    <rect x="396" y="160" width="48" height="130" rx="4" fill="#184f95"/>
-    <text x="68" y="304" text-anchor="middle" font-size="11" fill="#898781">FY21</text>
-    <text x="156" y="304" text-anchor="middle" font-size="11" fill="#898781">FY22</text>
-    <text x="244" y="304" text-anchor="middle" font-size="11" fill="#898781">FY23</text>
-    <text x="332" y="304" text-anchor="middle" font-size="11" fill="#898781">FY24</text>
-    <text x="420" y="304" text-anchor="middle" font-size="11" fill="#898781">FY25</text>
+    <line x1="24" y1="290" x2="616" y2="290" stroke="#B9B7B1" stroke-width="1"/>
+    <rect x="44" y="250" width="48" height="40" rx="2" fill="#F0E4D0"/>
+    <rect x="132" y="230" width="48" height="60" rx="2" fill="#E3CBA0"/>
+    <rect x="220" y="205" width="48" height="85" rx="2" fill="#D2AC72"/>
+    <rect x="308" y="180" width="48" height="110" rx="2" fill="#B68235"/>
+    <rect x="396" y="160" width="48" height="130" rx="2" fill="#8A6226"/>
+    <text x="68" y="304" text-anchor="middle" font-size="11" fill="#949393">FY21</text>
+    <text x="156" y="304" text-anchor="middle" font-size="11" fill="#949393">FY22</text>
+    <text x="244" y="304" text-anchor="middle" font-size="11" fill="#949393">FY23</text>
+    <text x="332" y="304" text-anchor="middle" font-size="11" fill="#949393">FY24</text>
+    <text x="420" y="304" text-anchor="middle" font-size="11" fill="#949393">FY25</text>
   </g>
 
   <!-- narrative section -->
-  <rect x="24" y="326" width="592" height="54" rx="10" fill="#f9f9f7" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="40" y="348" font-size="12" font-weight="600" fill="#0b0b0b">Drivers of change</text>
-  <text x="40" y="366" font-size="12" fill="#52514e">Margin expansion driven by cost of revenue growing slower than sales.</text>
+  <rect x="24" y="326" width="592" height="54" rx="4" fill="#FAF9F7" stroke="#D1D0D0" stroke-width="1"/>
+  <text x="40" y="348" font-family="'Cormorant Garamond', serif" font-size="14" font-weight="600" fill="#201F1D">Drivers of change</text>
+  <text x="40" y="366" font-size="12" fill="#5F5E5D">Margin expansion driven by cost of revenue growing slower than sales.</text>
 </svg>
