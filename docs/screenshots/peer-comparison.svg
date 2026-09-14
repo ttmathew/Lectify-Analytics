@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect x="0" y="0" width="640" height="400" rx="12" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+
+  <rect x="492" y="16" width="132" height="24" rx="12" fill="#f0efec"/>
+  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#898781">ILLUSTRATIVE MOCKUP</text>
+
+  <text x="24" y="40" font-size="16" font-weight="700" fill="#0b0b0b">Operating Margin — Peer Comparison</text>
+  <text x="24" y="58" font-size="12" fill="#898781">Fiscal Year 2025 · click a bar to drill into the underlying figures</text>
+
+  <!-- gridlines: baseline y=270, top gridline y=90 -->
+  <line x1="60" y1="90" x2="600" y2="90" stroke="#e1e0d9" stroke-width="1"/>
+  <line x1="60" y1="150" x2="600" y2="150" stroke="#e1e0d9" stroke-width="1"/>
+  <line x1="60" y1="210" x2="600" y2="210" stroke="#e1e0d9" stroke-width="1"/>
+  <line x1="60" y1="270" x2="600" y2="270" stroke="#c3c2b7" stroke-width="1.5"/>
+
+  <!-- bars: baseline y=270, ~4.6px per point -->
+  <!-- This Company: 31.5% -> height 145 -->
+  <rect x="100" y="125" width="90" height="145" rx="4" fill="#2a78d6"/>
+  <text x="145" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#0b0b0b">31.5%</text>
+  <text x="145" y="288" text-anchor="middle" font-size="12" font-weight="600" fill="#0b0b0b">This Company</text>
+
+  <!-- Peer A: 24.2% -> height 111 -->
+  <rect x="240" y="159" width="90" height="111" rx="4" fill="#e1e0d9"/>
+  <text x="285" y="146" text-anchor="middle" font-size="14" fill="#52514e">24.2%</text>
+  <text x="285" y="288" text-anchor="middle" font-size="12" fill="#52514e">Peer A</text>
+
+  <!-- Peer B: 19.8% -> height 91 -->
+  <rect x="380" y="179" width="90" height="91" rx="4" fill="#e1e0d9"/>
+  <text x="425" y="166" text-anchor="middle" font-size="14" fill="#52514e">19.8%</text>
+  <text x="425" y="288" text-anchor="middle" font-size="12" fill="#52514e">Peer B</text>
+
+  <!-- Peer C: 27.1% -> height 125 -->
+  <rect x="520" y="145" width="90" height="125" rx="4" fill="#e1e0d9"/>
+  <text x="565" y="132" text-anchor="middle" font-size="14" fill="#52514e">27.1%</text>
+  <text x="565" y="288" text-anchor="middle" font-size="12" fill="#52514e">Peer C</text>
+
+  <!-- legend -->
+  <rect x="24" y="308" width="14" height="14" rx="3" fill="#2a78d6"/>
+  <text x="44" y="319" font-size="12" fill="#52514e">Company being analyzed</text>
+  <rect x="220" y="308" width="14" height="14" rx="3" fill="#e1e0d9"/>
+  <text x="240" y="319" font-size="12" fill="#52514e">Peer group</text>
+
+  <!-- drill-down example footer -->
+  <rect x="24" y="334" width="592" height="46" rx="10" fill="#f9f9f7" stroke="#e1e0d9" stroke-width="1"/>
+  <text x="40" y="353" font-size="12" font-weight="600" fill="#0b0b0b">Example drill-down — "This Company":</text>
+  <text x="40" y="370" font-size="12" fill="#52514e">Operating income $30.8B on revenue $96.2B, sourced from the FY2025 Annual Report.</text>
+</svg>

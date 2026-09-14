@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect x="0" y="0" width="640" height="400" rx="12" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+
+  <!-- mockup badge -->
+  <rect x="492" y="16" width="132" height="24" rx="12" fill="#f0efec"/>
+  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#898781">ILLUSTRATIVE MOCKUP</text>
+
+  <text x="24" y="36" font-size="12" letter-spacing="1" fill="#898781">NATURAL-LANGUAGE Q&amp;A</text>
+
+  <!-- user question bubble (right-aligned) -->
+  <rect x="220" y="64" width="396" height="56" rx="16" fill="#cde2fb"/>
+  <text x="600" y="86" text-anchor="end" font-size="15" fill="#0b0b0b">What was operating margin in the most</text>
+  <text x="600" y="106" text-anchor="end" font-size="15" fill="#0b0b0b">recent fiscal year, and how has it moved?</text>
+
+  <!-- agent answer bubble (left-aligned) -->
+  <rect x="24" y="144" width="480" height="118" rx="16" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <text x="44" y="174" font-size="15" fill="#0b0b0b">Operating margin was <tspan font-weight="bold">31.5%</tspan> in FY2025,</text>
+  <text x="44" y="198" font-size="15" fill="#0b0b0b">up from <tspan font-weight="bold">29.8%</tspan> in FY2024 — a 1.7 point</text>
+  <text x="44" y="222" font-size="15" fill="#0b0b0b">improvement driven mainly by lower cost</text>
+  <text x="44" y="246" font-size="15" fill="#0b0b0b">of revenue relative to sales growth.</text>
+
+  <!-- verified chip -->
+  <rect x="24" y="278" width="118" height="30" rx="15" fill="#e3f6e3"/>
+  <path d="M 40 293 l 6 6 l 11 -12" fill="none" stroke="#0ca30c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="64" y="298" font-size="13" font-weight="600" fill="#0b6b0b">Verified</text>
+
+  <text x="150" y="298" font-size="12" fill="#898781">every figure re-checked against source data before display</text>
+
+  <!-- input row -->
+  <rect x="24" y="336" width="592" height="40" rx="20" fill="#ffffff" stroke="#c3c2b7" stroke-width="1"/>
+  <text x="44" y="361" font-size="13" fill="#898781">Ask about revenue, margins, cash flow, peers...</text>
+  <circle cx="590" cy="356" r="14" fill="#2a78d6"/>
+  <path d="M 585 356 l 10 0 M 591 351 l 5 5 l -5 5" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

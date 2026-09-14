@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect x="0" y="0" width="640" height="400" rx="12" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+
+  <rect x="492" y="16" width="132" height="24" rx="12" fill="#f0efec"/>
+  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#898781">ILLUSTRATIVE MOCKUP</text>
+
+  <text x="24" y="40" font-size="16" font-weight="700" fill="#0b0b0b">Admin Console — User Management</text>
+  <text x="24" y="60" font-size="12" fill="#898781">Roles, access, and system-level administration</text>
+
+  <!-- table header -->
+  <rect x="24" y="84" width="592" height="34" fill="#f0efec"/>
+  <text x="40" y="106" font-size="12" font-weight="600" fill="#52514e">USER</text>
+  <text x="260" y="106" font-size="12" font-weight="600" fill="#52514e">ROLE</text>
+  <text x="400" y="106" font-size="12" font-weight="600" fill="#52514e">STATUS</text>
+  <text x="520" y="106" font-size="12" font-weight="600" fill="#52514e">LAST ACTIVE</text>
+
+  <!-- rows -->
+  <g>
+    <line x1="24" y1="118" x2="616" y2="118" stroke="#e1e0d9" stroke-width="1"/>
+    <text x="40" y="142" font-size="13" fill="#0b0b0b">Analyst One</text>
+    <text x="260" y="142" font-size="13" fill="#52514e">Analyst</text>
+    <rect x="400" y="126" width="70" height="22" rx="11" fill="#e3f6e3"/>
+    <path d="M 411 137 l 4 4 l 8 -9" fill="none" stroke="#0ca30c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="430" y="141" text-anchor="middle" font-size="11" font-weight="600" fill="#0b6b0b">Active</text>
+    <text x="520" y="142" font-size="12" fill="#898781">2 hours ago</text>
+  </g>
+
+  <g>
+    <line x1="24" y1="158" x2="616" y2="158" stroke="#e1e0d9" stroke-width="1"/>
+    <text x="40" y="182" font-size="13" fill="#0b0b0b">Ops Admin</text>
+    <text x="260" y="182" font-size="13" fill="#52514e">Admin</text>
+    <rect x="400" y="166" width="70" height="22" rx="11" fill="#e3f6e3"/>
+    <path d="M 411 177 l 4 4 l 8 -9" fill="none" stroke="#0ca30c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="430" y="181" text-anchor="middle" font-size="11" font-weight="600" fill="#0b6b0b">Active</text>
+    <text x="520" y="182" font-size="12" fill="#898781">1 day ago</text>
+  </g>
+
+  <g>
+    <line x1="24" y1="198" x2="616" y2="198" stroke="#e1e0d9" stroke-width="1"/>
+    <text x="40" y="222" font-size="13" fill="#0b0b0b">Guest Reviewer</text>
+    <text x="260" y="222" font-size="13" fill="#52514e">Viewer</text>
+    <rect x="400" y="206" width="82" height="22" rx="11" fill="#fef3d9"/>
+    <circle cx="412" cy="217" r="5" fill="none" stroke="#a16a00" stroke-width="1.6"/>
+    <path d="M 412 214 l 0 3 l 2 2" fill="none" stroke="#a16a00" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="440" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#a16a00">Pending</text>
+    <text x="520" y="222" font-size="12" fill="#898781">—</text>
+  </g>
+
+  <g>
+    <line x1="24" y1="238" x2="616" y2="238" stroke="#e1e0d9" stroke-width="1"/>
+    <text x="40" y="262" font-size="13" fill="#898781">Former Contractor</text>
+    <text x="260" y="262" font-size="13" fill="#898781">Analyst</text>
+    <rect x="400" y="246" width="78" height="22" rx="11" fill="#f0efec"/>
+    <path d="M 411 257 l 8 0 M 411 253 l 8 8 M 419 253 l -8 8" fill="none" stroke="#898781" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="443" y="261" text-anchor="middle" font-size="11" font-weight="600" fill="#52514e">Revoked</text>
+    <text x="520" y="262" font-size="12" fill="#898781">14 days ago</text>
+  </g>
+
+  <!-- footer note -->
+  <rect x="24" y="326" width="592" height="46" rx="10" fill="#f9f9f7" stroke="#e1e0d9" stroke-width="1"/>
+  <text x="40" y="354" font-size="12" fill="#52514e">Role-based permissions control who can query, generate reports, or manage other users.</text>
+</svg>

@@ -49,12 +49,12 @@ In short: the reasoning happens like a chatbot, but nothing reaches the user's s
 
 | | |
 |---|---|
-| ![Natural-language Q&A](docs/screenshots/qa-chat.png) | ![Automated company report](docs/screenshots/company-report.png) |
+| ![Natural-language Q&A](docs/screenshots/qa-chat.svg) | ![Automated company report](docs/screenshots/company-report.svg) |
 | *Ask a question, get a verified answer* | *Automated company report* |
-| ![Peer comparison visualization](docs/screenshots/peer-comparison.png) | ![Admin console](docs/screenshots/admin-console.png) |
+| ![Peer comparison visualization](docs/screenshots/peer-comparison.svg) | ![Admin console](docs/screenshots/admin-console.svg) |
 | *Peer comparison with drill-down* | *Role-based admin console* |
 
-*(Screenshots above are placeholders pending real product captures — see [docs/screenshots/](docs/screenshots/) and [docs/features.md](docs/features.md) for the full walkthrough with additional views.)*
+*(Illustrative mockups, not live product screenshots, while the product UI is finalized — see [docs/screenshots/](docs/screenshots/) and [docs/features.md](docs/features.md) for the full walkthrough with additional views.)*
 
 ## Tech Approach
 
