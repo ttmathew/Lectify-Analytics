@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 552" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect x="0" y="0" width="640" height="552" rx="12" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+
+  <rect x="492" y="16" width="132" height="24" rx="12" fill="#f0efec"/>
+  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#898781">ILLUSTRATIVE MOCKUP</text>
+
+  <text x="24" y="40" font-size="18" font-weight="700" fill="#0b0b0b">Business Workspace</text>
+  <text x="24" y="60" font-size="12" fill="#898781">Search a company, then move between every view without losing your place</text>
+
+  <!-- search bar -->
+  <rect x="24" y="84" width="592" height="44" rx="22" fill="#ffffff" stroke="#c3c2b7" stroke-width="1"/>
+  <text x="40" y="111" font-size="13" fill="#898781">Search a company (ticker or name)</text>
+
+  <!-- recently viewed -->
+  <text x="24" y="144" font-size="10" letter-spacing="0.5" fill="#898781">RECENTLY VIEWED</text>
+  <rect x="24" y="152" width="110" height="24" rx="12" fill="#2a78d6"/>
+  <text x="79" y="168" text-anchor="middle" font-size="11" font-weight="600" fill="#ffffff">Company X</text>
+  <rect x="142" y="152" width="110" height="24" rx="12" fill="#ffffff" stroke="#c3c2b7" stroke-width="1"/>
+  <text x="197" y="168" text-anchor="middle" font-size="11" fill="#52514e">Company Y</text>
+  <rect x="260" y="152" width="110" height="24" rx="12" fill="#ffffff" stroke="#c3c2b7" stroke-width="1"/>
+  <text x="315" y="168" text-anchor="middle" font-size="11" fill="#52514e">Company Z</text>
+
+  <!-- snapshot -->
+  <text x="24" y="208" font-size="13" font-weight="600" fill="#0b0b0b">Company X — quick snapshot</text>
+
+  <rect x="24" y="224" width="184" height="76" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <text x="40" y="244" font-size="10" fill="#898781">REVENUE</text>
+  <text x="40" y="268" font-size="20" font-weight="700" fill="#0b0b0b">$96.2B</text>
+  <text x="40" y="288" font-size="10" fill="#898781">FY2025</text>
+
+  <rect x="228" y="224" width="184" height="76" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <text x="244" y="244" font-size="10" fill="#898781">OPERATING MARGIN</text>
+  <text x="244" y="268" font-size="20" font-weight="700" fill="#0b0b0b">31.5%</text>
+  <text x="244" y="288" font-size="10" fill="#898781">FY2025</text>
+
+  <rect x="432" y="224" width="184" height="76" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <text x="448" y="244" font-size="10" fill="#898781">FREE CASH FLOW</text>
+  <text x="448" y="268" font-size="20" font-weight="700" fill="#0b0b0b">$99.6B</text>
+  <text x="448" y="288" font-size="10" fill="#898781">FY2025</text>
+
+  <!-- nav cards -->
+  <text x="24" y="336" font-size="13" font-weight="600" fill="#0b0b0b">Jump to</text>
+
+  <!-- Ask -->
+  <rect x="24" y="352" width="104" height="120" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <circle cx="76" cy="382" r="12" fill="none" stroke="#2a78d6" stroke-width="1.6"/>
+  <text x="76" y="386" text-anchor="middle" font-size="11" font-weight="700" fill="#2a78d6">?</text>
+  <text x="76" y="418" text-anchor="middle" font-size="12" font-weight="600" fill="#0b0b0b">Ask</text>
+  <text x="76" y="436" text-anchor="middle" font-size="9" fill="#898781">Ask a question</text>
+  <text x="76" y="450" text-anchor="middle" font-size="9" fill="#898781">in plain English</text>
+
+  <!-- Analyze -->
+  <rect x="142" y="352" width="104" height="120" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <rect x="185" y="374" width="5" height="8" fill="#2a78d6"/>
+  <rect x="192" y="368" width="5" height="14" fill="#2a78d6"/>
+  <rect x="199" y="362" width="5" height="20" fill="#2a78d6"/>
+  <text x="194" y="418" text-anchor="middle" font-size="12" font-weight="600" fill="#0b0b0b">Analyze</text>
+  <text x="194" y="436" text-anchor="middle" font-size="9" fill="#898781">Trend charts</text>
+  <text x="194" y="450" text-anchor="middle" font-size="9" fill="#898781">with drill-down</text>
+
+  <!-- Peers -->
+  <rect x="260" y="352" width="104" height="120" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <circle cx="302" cy="382" r="3.5" fill="#c3c2b7"/>
+  <circle cx="312" cy="382" r="3.5" fill="#2a78d6"/>
+  <circle cx="322" cy="382" r="3.5" fill="#c3c2b7"/>
+  <text x="312" y="418" text-anchor="middle" font-size="12" font-weight="600" fill="#0b0b0b">Peers</text>
+  <text x="312" y="436" text-anchor="middle" font-size="9" fill="#898781">Compare against</text>
+  <text x="312" y="450" text-anchor="middle" font-size="9" fill="#898781">peer companies</text>
+
+  <!-- Anomalies -->
+  <rect x="378" y="352" width="104" height="120" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <circle cx="478" cy="348" r="7" fill="#d03b3b"/>
+  <text x="478" y="351" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff">3</text>
+  <polygon points="430,362 423,384 437,384" fill="none" stroke="#a16a00" stroke-width="1.6" stroke-linejoin="round"/>
+  <line x1="430" y1="368" x2="430" y2="376" stroke="#a16a00" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="430" cy="380" r="0.9" fill="#a16a00"/>
+  <text x="430" y="418" text-anchor="middle" font-size="12" font-weight="600" fill="#0b0b0b">Anomalies</text>
+  <text x="430" y="436" text-anchor="middle" font-size="9" fill="#898781">Flagged patterns</text>
+  <text x="430" y="450" text-anchor="middle" font-size="9" fill="#898781">worth a look</text>
+
+  <!-- Reports -->
+  <rect x="496" y="352" width="104" height="120" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <rect x="540" y="362" width="16" height="24" rx="2" fill="none" stroke="#2a78d6" stroke-width="1.4"/>
+  <line x1="544" y1="370" x2="552" y2="370" stroke="#2a78d6" stroke-width="1.2"/>
+  <line x1="544" y1="376" x2="552" y2="376" stroke="#2a78d6" stroke-width="1.2"/>
+  <text x="548" y="418" text-anchor="middle" font-size="12" font-weight="600" fill="#0b0b0b">Reports</text>
+  <text x="548" y="436" text-anchor="middle" font-size="9" fill="#898781">Generate a full</text>
+  <text x="548" y="450" text-anchor="middle" font-size="9" fill="#898781">company report</text>
+
+  <!-- footer -->
+  <rect x="24" y="496" width="592" height="36" rx="10" fill="#f0efec"/>
+  <text x="40" y="519" font-size="12" fill="#52514e">Every view stays scoped to the selected company — no re-searching between tabs.</text>
+</svg>

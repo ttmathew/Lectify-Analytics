@@ -10,6 +10,7 @@ Just overwrite the `.png` file with your real screenshot/GIF, using the **same f
 
 | Filename | Used in | What to capture |
 |---|---|---|
+| `business-workspace.png` | README, features.md | The business workspace home screen: company search, quick snapshot, and navigation to every view |
 | `qa-chat.png` | README, features.md | The Q&A interface: a natural-language question and its verified, plain-language answer |
 | `verification-status.png` | features.md | A verified figure and, ideally, one flagged as unverifiable — showing both states |
 | `company-report.png` | README, features.md | An automated company report (performance, peer comparison, drivers of change) |

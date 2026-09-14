@@ -42,10 +42,14 @@ In short: the reasoning happens like a chatbot, but nothing reaches the user's s
 - **Automated company reports** — performance over a period, peer comparison, industry comparison, insights drawn from annual report narrative, and drivers of change
 - **Interactive data visualizations with drill-down** — explore a chart and drill into the underlying data points it's built from
 - **Narrative grounding** — explanations of "why" a metric moved are grounded in the company's own reported disclosures, not model speculation
+- **A unified business workspace** — search a company once, then move between Q&A, trend analysis, peer comparison, anomaly alerts, and report generation without losing context
 - **Role-based access and an admin console** — authentication, permissions, and administrative controls for managing users and system operation
 - **Guardrails and operational observability** — safety/scope guardrails on every input and output, paired with cost attribution, agentic efficiency monitoring, and RAG quality tracking (see below)
 
 ## See it in action
+
+![Business workspace home screen](docs/screenshots/business-workspace.png)
+*The business workspace — search a company, see a quick snapshot, then jump to any view*
 
 | | |
 |---|---|

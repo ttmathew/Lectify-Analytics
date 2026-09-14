@@ -4,6 +4,13 @@ A plain-language look at what you can do with Lectify Analytics today, and what 
 
 *Images below are illustrative mockups, not live product screenshots — see [screenshots/README.md](screenshots/README.md) for the shot list to swap in real captures.*
 
+## One workspace, built for business users
+
+Everything below lives inside a single workspace: search a company once, and every view — Q&A, trends, peer comparison, anomaly alerts, reports — stays scoped to that company until you search again. A quick snapshot of the company's key metrics is there the moment you land, before you've asked a single question.
+
+![Business workspace home screen](screenshots/business-workspace.png)
+*Example: search a company, see a quick snapshot, then jump to any view.*
+
 ## Ask questions in plain English
 
 Type a question the way you'd ask a colleague — no query language, no need to know where a number lives in a company's SEC Annual Report or Quarterly Report.
