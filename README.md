@@ -106,7 +106,7 @@ Founder: Lectify
 
 Email: info@lectify.in
 
-Site / additional info: [TODO: fill in]
+Site / additional info: https://analytics.lectify.in/
 
 
 ## License
