@@ -49,12 +49,12 @@ In short: the reasoning happens like a chatbot, but nothing reaches the user's s
 
 | | |
 |---|---|
-| <a href="docs/screenshots/qa-chat.svg?raw=true"><img src="docs/screenshots/qa-chat.svg" alt="Natural-language Q&amp;A"></a> | <a href="docs/screenshots/company-report.svg?raw=true"><img src="docs/screenshots/company-report.svg" alt="Automated company report"></a> |
+| ![Natural-language Q&A](docs/screenshots/qa-chat.png) | ![Automated company report](docs/screenshots/company-report.png) |
 | *Ask a question, get a verified answer* | *Automated company report* |
-| <a href="docs/screenshots/peer-comparison.svg?raw=true"><img src="docs/screenshots/peer-comparison.svg" alt="Peer comparison visualization"></a> | <a href="docs/screenshots/admin-console.svg?raw=true"><img src="docs/screenshots/admin-console.svg" alt="Admin console"></a> |
+| ![Peer comparison visualization](docs/screenshots/peer-comparison.png) | ![Admin console](docs/screenshots/admin-console.png) |
 | *Peer comparison with drill-down* | *Role-based admin console* |
 
-*(Illustrative mockups, not live product screenshots, while the product UI is finalized. Click an image to view it full-size — see [docs/screenshots/](docs/screenshots/) and [docs/features.md](docs/features.md) for the full walkthrough with additional views.)*
+*(Illustrative mockups, not live product screenshots, while the product UI is finalized — see [docs/screenshots/](docs/screenshots/) and [docs/features.md](docs/features.md) for the full walkthrough with additional views.)*
 
 ## Tech Approach
 

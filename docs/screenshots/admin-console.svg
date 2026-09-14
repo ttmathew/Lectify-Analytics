@@ -20,9 +20,9 @@
     <text x="40" y="142" font-size="13" fill="#0b0b0b">Analyst One</text>
     <text x="210" y="142" font-size="13" fill="#52514e">Analyst</text>
     <text x="300" y="142" font-size="13" fill="#52514e">Company X, Y</text>
-    <rect x="480" y="126" width="70" height="22" rx="11" fill="#e3f6e3"/>
-    <path d="M 491 137 l 4 4 l 8 -9" fill="none" stroke="#0ca30c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="515" y="141" text-anchor="middle" font-size="11" font-weight="600" fill="#0b6b0b">Active</text>
+    <rect x="480" y="126" width="86" height="22" rx="11" fill="#e3f6e3"/>
+    <path d="M 489 137 l 4 4 l 8 -9" fill="none" stroke="#0ca30c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="510" y="141" font-size="11" font-weight="600" fill="#0b6b0b">Active</text>
   </g>
 
   <!-- row 2 -->
@@ -31,9 +31,9 @@
     <text x="40" y="182" font-size="13" fill="#0b0b0b">Ops Admin</text>
     <text x="210" y="182" font-size="13" fill="#52514e">Admin</text>
     <text x="300" y="182" font-size="13" fill="#52514e">All companies</text>
-    <rect x="480" y="166" width="70" height="22" rx="11" fill="#e3f6e3"/>
-    <path d="M 491 177 l 4 4 l 8 -9" fill="none" stroke="#0ca30c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="515" y="181" text-anchor="middle" font-size="11" font-weight="600" fill="#0b6b0b">Active</text>
+    <rect x="480" y="166" width="86" height="22" rx="11" fill="#e3f6e3"/>
+    <path d="M 489 177 l 4 4 l 8 -9" fill="none" stroke="#0ca30c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="510" y="181" font-size="11" font-weight="600" fill="#0b6b0b">Active</text>
   </g>
 
   <!-- row 3 -->
@@ -42,10 +42,10 @@
     <text x="40" y="222" font-size="13" fill="#0b0b0b">Guest Reviewer</text>
     <text x="210" y="222" font-size="13" fill="#52514e">Viewer</text>
     <text x="300" y="222" font-size="13" fill="#52514e">Company Z</text>
-    <rect x="480" y="206" width="82" height="22" rx="11" fill="#fef3d9"/>
-    <circle cx="492" cy="217" r="5" fill="none" stroke="#a16a00" stroke-width="1.6"/>
-    <path d="M 492 214 l 0 3 l 2 2" fill="none" stroke="#a16a00" stroke-width="1.4" stroke-linecap="round"/>
-    <text x="521" y="221" text-anchor="middle" font-size="11" font-weight="600" fill="#a16a00">Pending</text>
+    <rect x="480" y="206" width="104" height="22" rx="11" fill="#fef3d9"/>
+    <circle cx="493" cy="217" r="5" fill="none" stroke="#a16a00" stroke-width="1.6"/>
+    <path d="M 493 214 l 0 3 l 2 2" fill="none" stroke="#a16a00" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="508" y="221" font-size="11" font-weight="600" fill="#a16a00">Pending</text>
   </g>
 
   <!-- row 4 -->
@@ -54,9 +54,9 @@
     <text x="40" y="262" font-size="13" fill="#898781">Former Contractor</text>
     <text x="210" y="262" font-size="13" fill="#898781">Analyst</text>
     <text x="300" y="262" font-size="13" fill="#898781">Company X</text>
-    <rect x="480" y="246" width="78" height="22" rx="11" fill="#f0efec"/>
-    <path d="M 491 257 l 8 0 M 491 253 l 8 8 M 499 253 l -8 8" fill="none" stroke="#898781" stroke-width="1.4" stroke-linecap="round"/>
-    <text x="519" y="261" text-anchor="middle" font-size="11" font-weight="600" fill="#52514e">Revoked</text>
+    <rect x="480" y="246" width="96" height="22" rx="11" fill="#f0efec"/>
+    <path d="M 489 257 l 8 0 M 489 253 l 8 8 M 497 253 l -8 8" fill="none" stroke="#898781" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="509" y="261" font-size="11" font-weight="600" fill="#52514e">Revoked</text>
   </g>
 
   <!-- footer note -->
