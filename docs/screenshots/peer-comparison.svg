@@ -8,40 +8,35 @@
   <text x="24" y="58" font-size="12" fill="#898781">Fiscal Year 2025 · click a bar to drill into the underlying figures</text>
 
   <!-- gridlines: baseline y=270, top gridline y=90 -->
-  <line x1="60" y1="90" x2="600" y2="90" stroke="#e1e0d9" stroke-width="1"/>
-  <line x1="60" y1="150" x2="600" y2="150" stroke="#e1e0d9" stroke-width="1"/>
-  <line x1="60" y1="210" x2="600" y2="210" stroke="#e1e0d9" stroke-width="1"/>
-  <line x1="60" y1="270" x2="600" y2="270" stroke="#c3c2b7" stroke-width="1.5"/>
+  <line x1="80" y1="90" x2="580" y2="90" stroke="#e1e0d9" stroke-width="1"/>
+  <line x1="80" y1="150" x2="580" y2="150" stroke="#e1e0d9" stroke-width="1"/>
+  <line x1="80" y1="210" x2="580" y2="210" stroke="#e1e0d9" stroke-width="1"/>
+  <line x1="80" y1="270" x2="580" y2="270" stroke="#c3c2b7" stroke-width="1.5"/>
 
   <!-- bars: baseline y=270, ~4.6px per point -->
-  <!-- This Company: 31.5% -> height 145 -->
-  <rect x="100" y="125" width="90" height="145" rx="4" fill="#2a78d6"/>
-  <text x="145" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#0b0b0b">31.5%</text>
-  <text x="145" y="288" text-anchor="middle" font-size="12" font-weight="600" fill="#0b0b0b">This Company</text>
+  <!-- Company X: 31.5% -> height 145 -->
+  <rect x="140" y="125" width="110" height="145" rx="4" fill="#2a78d6"/>
+  <text x="195" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#0b0b0b">31.5%</text>
+  <text x="195" y="288" text-anchor="middle" font-size="13" font-weight="600" fill="#0b0b0b">Company X</text>
 
-  <!-- Peer A: 24.2% -> height 111 -->
-  <rect x="240" y="159" width="90" height="111" rx="4" fill="#e1e0d9"/>
-  <text x="285" y="146" text-anchor="middle" font-size="14" fill="#52514e">24.2%</text>
-  <text x="285" y="288" text-anchor="middle" font-size="12" fill="#52514e">Peer A</text>
+  <!-- Company Y: 24.2% -> height 111 -->
+  <rect x="300" y="159" width="110" height="111" rx="4" fill="#e1e0d9"/>
+  <text x="355" y="146" text-anchor="middle" font-size="14" fill="#52514e">24.2%</text>
+  <text x="355" y="288" text-anchor="middle" font-size="13" fill="#52514e">Company Y</text>
 
-  <!-- Peer B: 19.8% -> height 91 -->
-  <rect x="380" y="179" width="90" height="91" rx="4" fill="#e1e0d9"/>
-  <text x="425" y="166" text-anchor="middle" font-size="14" fill="#52514e">19.8%</text>
-  <text x="425" y="288" text-anchor="middle" font-size="12" fill="#52514e">Peer B</text>
-
-  <!-- Peer C: 27.1% -> height 125 -->
-  <rect x="520" y="145" width="90" height="125" rx="4" fill="#e1e0d9"/>
-  <text x="565" y="132" text-anchor="middle" font-size="14" fill="#52514e">27.1%</text>
-  <text x="565" y="288" text-anchor="middle" font-size="12" fill="#52514e">Peer C</text>
+  <!-- Company Z: 19.8% -> height 91 -->
+  <rect x="460" y="179" width="110" height="91" rx="4" fill="#e1e0d9"/>
+  <text x="515" y="166" text-anchor="middle" font-size="14" fill="#52514e">19.8%</text>
+  <text x="515" y="288" text-anchor="middle" font-size="13" fill="#52514e">Company Z</text>
 
   <!-- legend -->
   <rect x="24" y="308" width="14" height="14" rx="3" fill="#2a78d6"/>
-  <text x="44" y="319" font-size="12" fill="#52514e">Company being analyzed</text>
-  <rect x="220" y="308" width="14" height="14" rx="3" fill="#e1e0d9"/>
-  <text x="240" y="319" font-size="12" fill="#52514e">Peer group</text>
+  <text x="44" y="319" font-size="12" fill="#52514e">Company being analyzed (Company X)</text>
+  <rect x="320" y="308" width="14" height="14" rx="3" fill="#e1e0d9"/>
+  <text x="340" y="319" font-size="12" fill="#52514e">Peer companies</text>
 
   <!-- drill-down example footer -->
   <rect x="24" y="334" width="592" height="46" rx="10" fill="#f9f9f7" stroke="#e1e0d9" stroke-width="1"/>
-  <text x="40" y="353" font-size="12" font-weight="600" fill="#0b0b0b">Example drill-down — "This Company":</text>
+  <text x="40" y="353" font-size="12" font-weight="600" fill="#0b0b0b">Example drill-down — Company X:</text>
   <text x="40" y="370" font-size="12" fill="#52514e">Operating income $30.8B on revenue $96.2B, sourced from the FY2025 Annual Report.</text>
 </svg>
