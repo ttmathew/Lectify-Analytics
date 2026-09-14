@@ -86,7 +86,7 @@ A separate, deterministic check that sits between the agent's draft answer and t
 Two complementary stores. A structured store holds normalized, per-company financial facts extracted from SEC Annual and Quarterly Reports — this is the single source of truth for any number the system states. A narrative index holds the report's written sections (management discussion, footnotes, disclosures) used for retrieval-augmented context — it informs qualitative "why" explanations, and is never the source of a numeric claim. Retrieval against this layer is always scoped to the company in question before any ranking happens.
 
 ### Guardrails / Observability Layer
-A cross-cutting layer that monitors and constrains the system's behavior: keeping the agent within its intended scope, screening for unsafe or sensitive content, and providing tracing/evaluation of system behavior over time so quality and safety issues can be caught and diagnosed rather than discovered by users.
+A cross-cutting layer that monitors and constrains the system's behavior, in two parts. The **guardrails** half keeps the agent within its intended scope and screens for unsafe or sensitive content. The **observability** half tracks how the system is actually performing in operation: cost attribution (by feature, department, and user), agentic efficiency (tool-call patterns, redundant work, latency), and RAG/retrieval quality (grounding rate, retrieval failures, narrative drift) — each tied back into tracing and evaluation so quality, cost, and safety issues are caught and diagnosed rather than discovered by users.
 
 ## Design Principles
 

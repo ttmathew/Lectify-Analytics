@@ -16,5 +16,8 @@ Just overwrite the `.png` file with your real screenshot/GIF, using the **same f
 | `peer-comparison.png` | README, features.md | A peer comparison visualization, ideally mid-drill-down into a data point |
 | `admin-console.png` | README, features.md | The admin console: user/role management view |
 | `audit-log.png` | features.md | The audit log viewer showing logged questions/answers/verification outcomes |
+| `cost-observability.png` | README, features.md | Cost tracking dashboard: spend trend, breakdown by feature/department/user, flagged outliers |
+| `agent-efficiency.png` | README, features.md | Agentic efficiency dashboard: tool-call trace with a flagged redundant call, call volume by tool |
+| `rag-quality.png` | README, features.md | RAG quality dashboard: grounding rate trend, retrieval issues by category, flagged retrievals |
 
 If your real capture is a GIF instead, name it `<filename>.gif` and update the one matching link in the README/features.md to the `.gif` extension.

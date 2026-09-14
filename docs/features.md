@@ -69,3 +69,24 @@ Running alongside every interaction is a layer focused on keeping the system saf
 
 ![Audit log viewer](screenshots/audit-log.png)
 *Example: the audit log, showing a traceable history of questions, answers, and verification outcomes.*
+
+## Know exactly what it costs — and who's driving it
+
+Running an AI system without cost visibility is how a pilot turns into a surprise invoice. Spend is tracked continuously and sliced by feature, department, and individual user, so you can see exactly what's driving cost — not just a single monthly total. Unusual spend (a user, department, or company whose queries cost noticeably more than average) is flagged automatically rather than discovered at the end of the month.
+
+![Cost and usage observability dashboard](screenshots/cost-observability.png)
+*Example: daily spend trend, breakdown by department, and an automatically flagged cost outlier.*
+
+## Catching agentic inefficiency before it costs you
+
+An agent that calls the same tool twice, retries unnecessarily, or takes a slow path through a question is invisible in the final answer — the user just sees a slower or slightly more expensive response. This system traces every tool call a question triggers, so patterns like redundant retrievals or latency regressions are visible and flagged, not just felt.
+
+![Agentic efficiency monitoring dashboard](screenshots/agent-efficiency.png)
+*Example: a flagged duplicate tool call inside a real question's trace, plus tool-call volume by type.*
+
+## Keeping the retrieval layer honest
+
+Retrieval-augmented generation is only as good as what it retrieves. This system tracks its own retrieval quality over time — how often a query finds no matching source content, how often retrieved context turns out to be from the wrong fiscal year, how relevant the retrieved passages actually were — and ties that signal back into the verification layer, so a retrieval problem gets caught before it becomes a wrong answer rather than after.
+
+![RAG and retrieval quality monitoring dashboard](screenshots/rag-quality.png)
+*Example: grounding rate over time, retrieval issues by category, and individually flagged retrieval failures.*

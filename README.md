@@ -43,7 +43,7 @@ In short: the reasoning happens like a chatbot, but nothing reaches the user's s
 - **Interactive data visualizations with drill-down** — explore a chart and drill into the underlying data points it's built from
 - **Narrative grounding** — explanations of "why" a metric moved are grounded in the company's own reported disclosures, not model speculation
 - **Role-based access and an admin console** — authentication, permissions, and administrative controls for managing users and system operation
-- **Guardrails and observability** — safety, scope, and quality monitoring layered across the system's inputs and outputs
+- **Guardrails and operational observability** — safety/scope guardrails on every input and output, paired with cost attribution, agentic efficiency monitoring, and RAG quality tracking (see below)
 
 ## See it in action
 
@@ -55,6 +55,26 @@ In short: the reasoning happens like a chatbot, but nothing reaches the user's s
 | *Peer comparison with drill-down* | *Role-based admin console* |
 
 *(Illustrative mockups, not live product screenshots, while the product UI is finalized — see [docs/screenshots/](docs/screenshots/) and [docs/features.md](docs/features.md) for the full walkthrough with additional views.)*
+
+## Observability & Operational Intelligence
+
+Guardrails catch unsafe or out-of-scope behavior. That's necessary but not sufficient for running an agentic AI system in production — you also need to know what it costs, whether it's working efficiently, and whether its retrieval layer is actually grounded. This system treats all three as first-class, continuously tracked signals, not an afterthought:
+
+- **Cost tracking & attribution** — spend tracked and sliced by feature, department, and individual user, so cost drivers are visible before they become a surprise, with per-user and per-feature outliers flagged automatically
+- **Agentic efficiency monitoring** — every question's tool-call sequence is tracked to catch redundant retrievals, runaway loops, and latency regressions, down to the level of a single duplicated call
+- **RAG & retrieval quality monitoring** — grounding rate, no-match retrievals, and narrative-drift signals tracked continuously and tied back into the verification layer, so a retrieval problem is caught before it becomes a wrong answer
+
+| | |
+|---|---|
+| ![Cost and usage observability dashboard](docs/screenshots/cost-observability.png) | ![Agentic efficiency monitoring dashboard](docs/screenshots/agent-efficiency.png) |
+| *Cost tracked and attributed by feature, department, and user* | *Tool-call efficiency tracked, with redundant calls flagged automatically* |
+
+![RAG and retrieval quality monitoring dashboard](docs/screenshots/rag-quality.png)
+*Retrieval grounding and quality tracked continuously, tied back into the verification layer*
+
+*(Illustrative mockups — see [docs/screenshots/](docs/screenshots/) for the shot list.)*
+
+This level of operational observability — cost attribution, agentic efficiency, and RAG quality monitoring, not just safety guardrails — reflects a broader operating discipline for running agentic AI systems in production, applicable well beyond this one product.
 
 ## Tech Approach
 

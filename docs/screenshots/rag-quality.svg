@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 728" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect x="0" y="0" width="640" height="728" rx="12" fill="#fcfcfb" stroke="#e1e0d9" stroke-width="1"/>
+
+  <rect x="492" y="16" width="132" height="24" rx="12" fill="#f0efec"/>
+  <text x="558" y="32" text-anchor="middle" font-size="11" letter-spacing="0.5" fill="#898781">ILLUSTRATIVE MOCKUP</text>
+
+  <text x="24" y="40" font-size="18" font-weight="700" fill="#0b0b0b">RAG &amp; Retrieval Quality Monitoring</text>
+  <text x="24" y="60" font-size="12" fill="#898781">Tracking retrieval grounding and catching narrative drift before it reaches an answer</text>
+
+  <!-- stat tiles -->
+  <rect x="24" y="84" width="184" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <text x="40" y="108" font-size="12" fill="#898781">GROUNDED CITATIONS</text>
+  <text x="40" y="140" font-size="26" font-weight="700" fill="#0b0b0b">97.8%</text>
+  <rect x="40" y="150" width="140" height="20" rx="10" fill="#e3f6e3"/>
+  <text x="52" y="164" font-size="11" fill="#0b6b0b">+0.6 pts vs. last month</text>
+
+  <rect x="228" y="84" width="184" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <text x="244" y="108" font-size="12" fill="#898781">NO-MATCH RATE</text>
+  <text x="244" y="140" font-size="26" font-weight="700" fill="#0b0b0b">2.1%</text>
+  <rect x="244" y="150" width="140" height="20" rx="10" fill="#fef3d9"/>
+  <text x="256" y="164" font-size="11" fill="#a16a00">flagged for review</text>
+
+  <rect x="432" y="84" width="184" height="96" rx="10" fill="#ffffff" stroke="#e1e0d9" stroke-width="1"/>
+  <text x="448" y="108" font-size="12" fill="#898781">AVG CHUNKS / QUERY</text>
+  <text x="448" y="140" font-size="26" font-weight="700" fill="#0b0b0b">4.3</text>
+  <rect x="448" y="150" width="140" height="20" rx="10" fill="#f0efec"/>
+  <text x="460" y="164" font-size="11" fill="#52514e">within target range</text>
+
+  <!-- grounding rate trend -->
+  <text x="24" y="210" font-size="13" font-weight="600" fill="#0b0b0b">Grounding rate — last 14 days</text>
+
+  <line x1="60" y1="245" x2="600" y2="245" stroke="#e1e0d9" stroke-width="1"/>
+  <line x1="60" y1="287" x2="600" y2="287" stroke="#e1e0d9" stroke-width="1"/>
+  <line x1="60" y1="330" x2="600" y2="330" stroke="#c3c2b7" stroke-width="1.5"/>
+
+  <path d="M 70 303 L 110 296 L 150 289 L 190 299 L 230 279 L 270 269 L 310 276 L 350 262 L 390 265 L 430 259 L 470 272 L 510 255 L 550 262 L 590 252 L 590 330 L 70 330 Z" fill="#cde2fb" opacity="0.55"/>
+  <polyline points="70,303 110,296 150,289 190,299 230,279 270,269 310,276 350,262 390,265 430,259 470,272 510,255 550,262 590,252" fill="none" stroke="#2a78d6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <text x="70" y="346" font-size="11" fill="#898781">-14d</text>
+  <text x="330" y="346" text-anchor="middle" font-size="11" fill="#898781">-7d</text>
+  <text x="590" y="346" text-anchor="end" font-size="11" fill="#898781">Today</text>
+
+  <!-- retrieval issues by category -->
+  <text x="24" y="384" font-size="13" font-weight="600" fill="#0b0b0b">Retrieval issues by category — last 30 days</text>
+
+  <text x="170" y="421" text-anchor="end" font-size="12" fill="#52514e">No matching chunk</text>
+  <rect x="180" y="404" width="410" height="24" rx="4" fill="#2a78d6"/>
+  <text x="582" y="421" text-anchor="end" font-size="12" font-weight="600" fill="#ffffff">34</text>
+
+  <text x="170" y="465" text-anchor="end" font-size="12" fill="#52514e">Low relevance</text>
+  <rect x="180" y="448" width="253" height="24" rx="4" fill="#9ec5f4"/>
+  <text x="441" y="465" font-size="12" fill="#52514e">21</text>
+
+  <text x="170" y="509" text-anchor="end" font-size="12" fill="#52514e">Stale year context</text>
+  <rect x="180" y="492" width="181" height="24" rx="4" fill="#9ec5f4"/>
+  <text x="369" y="509" font-size="12" fill="#52514e">15</text>
+
+  <text x="170" y="553" text-anchor="end" font-size="12" fill="#52514e">Ambiguous match</text>
+  <rect x="180" y="536" width="108" height="24" rx="4" fill="#9ec5f4"/>
+  <text x="296" y="553" font-size="12" fill="#52514e">9</text>
+
+  <!-- recently flagged -->
+  <text x="24" y="596" font-size="13" font-weight="600" fill="#0b0b0b">Recently flagged retrievals</text>
+  <text x="40" y="616" font-size="12" fill="#52514e">Company Z — "debt trend FY2022" — no matching chunk found</text>
+  <text x="40" y="632" font-size="12" fill="#52514e">Company Y — "segment margin detail" — low relevance (0.31)</text>
+  <text x="40" y="648" font-size="12" fill="#52514e">Company X — "FY2021 buyback program" — stale year context</text>
+
+  <!-- critical callout -->
+  <rect x="24" y="672" width="592" height="40" rx="10" fill="#fdece3"/>
+  <polygon points="47,679 40,692 54,692" fill="none" stroke="#a13d10" stroke-width="1.6" stroke-linejoin="round"/>
+  <line x1="47" y1="683" x2="47" y2="687" stroke="#a13d10" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="47" cy="690" r="0.9" fill="#a13d10"/>
+  <text x="64" y="696" font-size="12" fill="#a13d10">Contradiction rate spike for Company Z queries — auto-flagged for critic review.</text>
+</svg>
