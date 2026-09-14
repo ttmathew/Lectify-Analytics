@@ -75,8 +75,8 @@ The underlying codebase is currently private while the project is in active deve
 
 ## Contact
 
-Founder: [TODO: fill in name]
-Email: [TODO: fill in]
+Founder: TT Mathew
+Email: info.in@lectify
 Site / additional info: [TODO: fill in]
 
 ## License
