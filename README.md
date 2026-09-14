@@ -1,4 +1,4 @@
-# Financial Analytics Agent
+# Lectify Analytics Agent
 
 **Ask natural-language questions about public companies' SEC Annual and Quarterly Reports. Get answers with every number independently verified against the source data — not just plausible-sounding.**
 
