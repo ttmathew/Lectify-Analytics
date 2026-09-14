@@ -16,7 +16,7 @@ Type a question the way you'd ask a colleague — no query language, no need to 
 
 **What you get back:** a direct answer in plain language, with the specific figures it's based on. Every number in the answer has been checked against the company's actual reported data before you see it — if something can't be confirmed, the answer tells you that plainly instead of stating it as fact.
 
-![Natural-language Q&A example](screenshots/qa-chat.svg)
+<a href="screenshots/qa-chat.svg?raw=true"><img src="screenshots/qa-chat.svg" alt="Natural-language Q&amp;A example"></a>
 *Example: asking a question and receiving a verified, plain-language answer.*
 
 ## Trust the numbers, not just the prose
@@ -25,7 +25,7 @@ Every factual, numeric claim in an answer goes through an independent check befo
 
 Every question you ask and every answer you receive is logged, so results can be traced back and reviewed later — useful for due diligence, compliance, or simply double-checking how an answer was reached.
 
-![Verification status on an answer](screenshots/verification-status.svg)
+<a href="screenshots/verification-status.svg?raw=true"><img src="screenshots/verification-status.svg" alt="Verification status on an answer"></a>
 *Example: a verified figure vs. a claim the system honestly flags as unverifiable.*
 
 ## Automated company reports
@@ -40,7 +40,7 @@ Instead of asking one question at a time, generate a full report on a company co
 
 Reports are generated on demand and reflect the company's most recently available SEC Annual and Quarterly Report data.
 
-![Automated company report](screenshots/company-report.svg)
+<a href="screenshots/company-report.svg?raw=true"><img src="screenshots/company-report.svg" alt="Automated company report"></a>
 *Example: an automated company report covering performance, peer comparison, and drivers of change.*
 
 ## Explore the data, not just the summary
@@ -53,19 +53,19 @@ flowchart LR
     Click --> Detail["See the exact figure,<br/>reporting period & source line item"]
 ```
 
-![Peer comparison chart with drill-down](screenshots/peer-comparison.svg)
+<a href="screenshots/peer-comparison.svg?raw=true"><img src="screenshots/peer-comparison.svg" alt="Peer comparison chart with drill-down"></a>
 *Example: a peer comparison chart; clicking a point reveals the underlying figures.*
 
 ## Role-based access and administration
 
 Not every user needs the same level of access. The system supports different user roles and permissions, along with an admin console for managing users, access, and system-level settings — so it can be used by a team, not just a single individual, with appropriate controls in place.
 
-![Admin console](screenshots/admin-console.svg)
+<a href="screenshots/admin-console.svg?raw=true"><img src="screenshots/admin-console.svg" alt="Admin console"></a>
 *Example: managing users and permissions from the admin console.*
 
 ## Guardrails and quality monitoring
 
 Running alongside every interaction is a layer focused on keeping the system safe, on-topic, and reliable — screening for inappropriate use, keeping responses within the system's intended scope, and monitoring output quality over time so issues can be identified and addressed rather than going unnoticed.
 
-![Audit log viewer](screenshots/audit-log.svg)
+<a href="screenshots/audit-log.svg?raw=true"><img src="screenshots/audit-log.svg" alt="Audit log viewer"></a>
 *Example: the audit log, showing a traceable history of questions, answers, and verification outcomes.*
