@@ -86,9 +86,15 @@ Running alongside every interaction is a layer focused on keeping the system saf
 
 *Example: guardrail triggers by category, a 14-day trend, and recently flagged events.*
 
+## Every answer can be reconstructed, not just recalled
+
+It's one thing to log that a question was asked. It's another to be able to show, months later, exactly how a specific answer was produced. Every question the system answers is assigned a traceable ID the moment it comes in, and that same ID is stamped on every tool call made while answering it and on the verification outcome that ran before the answer was shown. Nothing is logged after the fact — each step is recorded before the system moves on to the next one, so there's no path to an answer existing without a matching trail behind it.
+
+Given that one ID, the full sequence — the original question, every tool call and result behind the answer, and what verification confirmed, contradicted, or couldn't check — can be pulled back and reviewed in order. That's what turns "we believe this number was right" into something a reviewer can actually check: useful for due diligence, internal QA, compliance or model-risk review, or simply answering "how did we get this figure" well after the fact. Access to that trail is itself role-gated and searchable by actor, event type, and date range from the admin console, rather than a raw log dump handed to whoever asks.
+
 <img src="screenshots/audit-log.png" alt="Audit log viewer" width="640">
 
-*Example: the audit log, showing a traceable history of questions, answers, and verification outcomes.*
+*Example: a searchable audit trail entry — question, tool calls, and verification outcome, all tied to one traceable request.*
 
 ## Know exactly what it costs — and who's driving it
 

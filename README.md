@@ -83,6 +83,22 @@ Safety guardrails catch unsafe or out-of-scope behavior. That's necessary but no
 
 This level of operational observability — cost attribution, agentic efficiency, and RAG quality monitoring, not just safety guardrails — reflects a broader operating discipline for running agentic AI systems in production, applicable well beyond this one product.
 
+## Audit Trail & Reconstructability
+
+Logging that a question was asked isn't the same as being able to show, after the fact, exactly how an answer was produced. This system is built for the second, stronger property: **any past answer can be fully reconstructed from the audit trail alone** — not just recalled, but replayed.
+
+- **Every question gets one traceable identity.** The moment a question enters the system, it's assigned a request ID that's propagated through every tool call and the verification step that follows. Nothing that happens while answering that question is logged under a different identity or left unlinked.
+- **Nothing is logged after the fact.** Each tool call — its inputs, its result — is written to the audit trail synchronously, before the system moves on to the next step. If the audit write itself fails, the action fails with it rather than proceeding silently, so there's no path to an answer existing without a matching trail behind it.
+- **The verification outcome is part of the record, not just the answer.** What was checked, what was confirmed, what was flagged as contradicted or unverifiable — that outcome is logged against the same request ID as the question and the tool calls, so a reviewer sees not just what the system said, but what it independently checked before saying it.
+- **One lookup reconstructs the whole answer.** Given a request ID, the full sequence — the original question, every tool call and result that fed into the answer, and the verification outcome — can be pulled back and replayed in order. Reviewing how a specific figure in a specific answer was reached doesn't require re-running the analysis or taking the system's word for it.
+- **Access to the trail is itself controlled, not a raw log dump.** The audit trail is searchable by actor, event type, and date range through the role-gated admin console, so reviewing history doesn't mean handing every reviewer a firehose of unfiltered logs.
+
+In practice, this is what makes the system usable in settings where "we believe this number is right" isn't sufficient — due diligence review, internal QA, model-risk or compliance review, or answering "how did we arrive at this figure" months after the fact — because the reconstruction comes from the trail itself, not from someone's memory of how the system was working at the time.
+
+<img src="docs/screenshots/audit-log.png" alt="Audit log viewer" width="640">
+
+*Example: a searchable audit trail entry — question, tool calls, and verification outcome, all tied to one traceable request.*
+
 ## Tech Approach
 
 Described at the architectural-category level (implementation specifics are intentionally omitted here — see [ARCHITECTURE.md](ARCHITECTURE.md)):
