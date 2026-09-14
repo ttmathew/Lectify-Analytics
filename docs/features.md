@@ -8,7 +8,7 @@ A plain-language look at what you can do with Lectify Analytics today, and what 
 
 Everything below lives inside a single workspace: select a company once, and every view — computed metrics, source-linked narrative citations, natural-language Q&A, peer benchmarking, anomaly detection — stays scoped to that company. The overview screen gives you all of it at a glance the moment you land, before you've asked a single question.
 
-<img src="screenshots/business-workspace.png" alt="Business workspace overview screen" width="800">
+<img src="screenshots/business-workspace.png" alt="Business workspace overview screen" width="900">
 
 *Example: metrics, citations, Q&A, benchmarking, and anomaly detection, all for the selected company.*
 

@@ -48,7 +48,7 @@ In short: the reasoning happens like a chatbot, but nothing reaches the user's s
 
 ## See it in action
 
-<img src="docs/screenshots/business-workspace.png" alt="Business workspace overview screen" width="800">
+<img src="docs/screenshots/business-workspace.png" alt="Business workspace overview screen" width="900">
 
 *The workspace overview for a selected company — computed metrics, source-linked citations, natural-language Q&A, peer benchmarking, and anomaly detection in one view*
 
