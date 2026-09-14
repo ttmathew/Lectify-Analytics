@@ -19,5 +19,6 @@ Just overwrite the `.png` file with your real screenshot/GIF, using the **same f
 | `cost-observability.png` | README, features.md | Cost tracking dashboard: spend trend, breakdown by feature/department/user, flagged outliers |
 | `agent-efficiency.png` | README, features.md | Agentic efficiency dashboard: tool-call trace with a flagged redundant call, call volume by tool |
 | `rag-quality.png` | README, features.md | RAG quality dashboard: grounding rate trend, retrieval issues by category, flagged retrievals |
+| `guardrails-safety.png` | README, features.md | Guardrails dashboard: triggers by category (scope/PII/injection/toxicity), trend, flagged events |
 
 If your real capture is a GIF instead, name it `<filename>.gif` and update the one matching link in the README/features.md to the `.gif` extension.

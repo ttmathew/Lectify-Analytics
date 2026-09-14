@@ -65,7 +65,10 @@ Not every user needs the same level of access. The system supports different use
 
 ## Guardrails and quality monitoring
 
-Running alongside every interaction is a layer focused on keeping the system safe, on-topic, and reliable — screening for inappropriate use, keeping responses within the system's intended scope, and monitoring output quality over time so issues can be identified and addressed rather than going unnoticed.
+Running alongside every interaction is a layer focused on keeping the system safe, on-topic, and reliable — screening every input and output for scope, PII, prompt injection, and toxicity before it reaches the model or the user, and tracking trigger activity by category so patterns are visible, not just individual incidents.
+
+![Guardrails and safety monitoring dashboard](screenshots/guardrails-safety.png)
+*Example: guardrail triggers by category, a 14-day trend, and recently flagged events.*
 
 ![Audit log viewer](screenshots/audit-log.png)
 *Example: the audit log, showing a traceable history of questions, answers, and verification outcomes.*
