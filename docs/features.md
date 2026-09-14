@@ -8,7 +8,8 @@ A plain-language look at what you can do with Lectify Analytics today, and what 
 
 Everything below lives inside a single workspace: select a company once, and every view — computed metrics, source-linked narrative citations, natural-language Q&A, peer benchmarking, anomaly detection — stays scoped to that company. The overview screen gives you all of it at a glance the moment you land, before you've asked a single question.
 
-![Business workspace overview screen](screenshots/business-workspace.png)
+<img src="screenshots/business-workspace.png" alt="Business workspace overview screen" width="800">
+
 *Example: metrics, citations, Q&A, benchmarking, and anomaly detection, all for the selected company.*
 
 ## Ask questions in plain English
@@ -23,7 +24,8 @@ Type a question the way you'd ask a colleague — no query language, no need to 
 
 **What you get back:** a direct answer in plain language, with the specific figures it's based on. Every number in the answer has been checked against the company's actual reported data before you see it — if something can't be confirmed, the answer tells you that plainly instead of stating it as fact.
 
-![Natural-language Q&A example](screenshots/qa-chat.png)
+<img src="screenshots/qa-chat.png" alt="Natural-language Q&amp;A example" width="640">
+
 *Example: asking a question and receiving a verified, plain-language answer.*
 
 ## Trust the numbers, not just the prose
@@ -32,7 +34,8 @@ Every factual, numeric claim in an answer goes through an independent check befo
 
 Every question you ask and every answer you receive is logged, so results can be traced back and reviewed later — useful for due diligence, compliance, or simply double-checking how an answer was reached.
 
-![Verification status on an answer](screenshots/verification-status.png)
+<img src="screenshots/verification-status.png" alt="Verification status on an answer" width="640">
+
 *Example: a verified figure vs. a claim the system honestly flags as unverifiable.*
 
 ## Automated company reports
@@ -47,7 +50,8 @@ Instead of asking one question at a time, generate a full report on a company co
 
 Reports are generated on demand and reflect the company's most recently available SEC Annual and Quarterly Report data.
 
-![Automated company report](screenshots/company-report.png)
+<img src="screenshots/company-report.png" alt="Automated company report" width="640">
+
 *Example: an automated company report covering performance, peer comparison, and drivers of change.*
 
 ## Explore the data, not just the summary
@@ -60,43 +64,50 @@ flowchart LR
     Click --> Detail["See the exact figure,<br/>reporting period & source line item"]
 ```
 
-![Peer comparison chart with drill-down](screenshots/peer-comparison.png)
+<img src="screenshots/peer-comparison.png" alt="Peer comparison chart with drill-down" width="640">
+
 *Example: a peer comparison chart; clicking a point reveals the underlying figures.*
 
 ## Role-based access and administration
 
 Not every user needs the same level of access. The system supports different user roles and permissions, along with an admin console for managing users, access, and system-level settings — so it can be used by a team, not just a single individual, with appropriate controls in place.
 
-![Admin console](screenshots/admin-console.png)
+<img src="screenshots/admin-console.png" alt="Admin console" width="640">
+
 *Example: managing users and permissions from the admin console.*
 
 ## Guardrails and quality monitoring
 
 Running alongside every interaction is a layer focused on keeping the system safe, on-topic, and reliable — screening every input and output for scope, PII, prompt injection, and toxicity before it reaches the model or the user, and tracking trigger activity by category so patterns are visible, not just individual incidents.
 
-![Guardrails and safety monitoring dashboard](screenshots/guardrails-safety.png)
+<img src="screenshots/guardrails-safety.png" alt="Guardrails and safety monitoring dashboard" width="640">
+
 *Example: guardrail triggers by category, a 14-day trend, and recently flagged events.*
 
-![Audit log viewer](screenshots/audit-log.png)
+<img src="screenshots/audit-log.png" alt="Audit log viewer" width="640">
+
 *Example: the audit log, showing a traceable history of questions, answers, and verification outcomes.*
 
 ## Know exactly what it costs — and who's driving it
 
 Running an AI system without cost visibility is how a pilot turns into a surprise invoice. Spend is tracked continuously and sliced by feature, department, and individual user, so you can see exactly what's driving cost — not just a single monthly total. Unusual spend (a user, department, or company whose queries cost noticeably more than average) is flagged automatically rather than discovered at the end of the month.
 
-![Cost and usage observability dashboard](screenshots/cost-observability.png)
+<img src="screenshots/cost-observability.png" alt="Cost and usage observability dashboard" width="640">
+
 *Example: daily spend trend, breakdown by department, and an automatically flagged cost outlier.*
 
 ## Catching agentic inefficiency before it costs you
 
 An agent that calls the same tool twice, retries unnecessarily, or takes a slow path through a question is invisible in the final answer — the user just sees a slower or slightly more expensive response. This system traces every tool call a question triggers, so patterns like redundant retrievals or latency regressions are visible and flagged, not just felt.
 
-![Agentic efficiency monitoring dashboard](screenshots/agent-efficiency.png)
+<img src="screenshots/agent-efficiency.png" alt="Agentic efficiency monitoring dashboard" width="640">
+
 *Example: a flagged duplicate tool call inside a real question's trace, plus tool-call volume by type.*
 
 ## Keeping the retrieval layer honest
 
 Retrieval-augmented generation is only as good as what it retrieves. This system tracks its own retrieval quality over time — how often a query finds no matching source content, how often retrieved context turns out to be from the wrong fiscal year, how relevant the retrieved passages actually were — and ties that signal back into the verification layer, so a retrieval problem gets caught before it becomes a wrong answer rather than after.
 
-![RAG and retrieval quality monitoring dashboard](screenshots/rag-quality.png)
+<img src="screenshots/rag-quality.png" alt="RAG and retrieval quality monitoring dashboard" width="640">
+
 *Example: grounding rate over time, retrieval issues by category, and individually flagged retrieval failures.*

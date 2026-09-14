@@ -25,3 +25,9 @@ Just overwrite the `.png` file with your real screenshot/GIF, using the **same f
 | `guardrails-safety.png` | README, features.md | Guardrails dashboard: triggers by category (scope/PII/injection/toxicity), trend, flagged events |
 
 If your real capture is a GIF instead, name it `<filename>.gif` and update the one matching link in the README/features.md to the `.gif` extension.
+
+## Why these are `<img width="...">` tags, not `![]()`
+
+Every file here is rendered at 2x the size it's actually displayed at (e.g. `qa-chat.png` is 1280px wide but shown at 640) — sharp on retina/high-DPI screens without looking oversized inline. This only works through an HTML `<img width="...">` tag; plain Markdown `![]()` has no way to constrain display size, so GitHub would show the full 1280px file inline. Keep this pattern for any new screenshot: render at 2x whatever width you intend to display it at, then set `width` to the *display* size, not the file's actual pixel size.
+
+Note the tradeoff: clicking through to open the file directly still shows it at its full native resolution (2x), since that's controlled by GitHub's own image viewer, not by this markdown — that's expected, not a bug.

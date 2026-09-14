@@ -48,14 +48,15 @@ In short: the reasoning happens like a chatbot, but nothing reaches the user's s
 
 ## See it in action
 
-![Business workspace overview screen](docs/screenshots/business-workspace.png)
+<img src="docs/screenshots/business-workspace.png" alt="Business workspace overview screen" width="800">
+
 *The workspace overview for a selected company — computed metrics, source-linked citations, natural-language Q&A, peer benchmarking, and anomaly detection in one view*
 
 | | |
 |---|---|
-| ![Natural-language Q&A](docs/screenshots/qa-chat.png) | ![Automated company report](docs/screenshots/company-report.png) |
+| <img src="docs/screenshots/qa-chat.png" alt="Natural-language Q&amp;A" width="440"> | <img src="docs/screenshots/company-report.png" alt="Automated company report" width="440"> |
 | *Ask a question, get a verified answer* | *Automated company report* |
-| ![Peer comparison visualization](docs/screenshots/peer-comparison.png) | ![Admin console](docs/screenshots/admin-console.png) |
+| <img src="docs/screenshots/peer-comparison.png" alt="Peer comparison visualization" width="440"> | <img src="docs/screenshots/admin-console.png" alt="Admin console" width="440"> |
 | *Peer comparison with drill-down* | *Role-based admin console* |
 
 *(Illustrative mockups, not live product screenshots, while the product UI is finalized — see [docs/screenshots/](docs/screenshots/) and [docs/features.md](docs/features.md) for the full walkthrough with additional views.)*
@@ -71,9 +72,9 @@ Safety guardrails catch unsafe or out-of-scope behavior. That's necessary but no
 
 | | |
 |---|---|
-| ![Guardrails and safety monitoring dashboard](docs/screenshots/guardrails-safety.png) | ![Cost and usage observability dashboard](docs/screenshots/cost-observability.png) |
+| <img src="docs/screenshots/guardrails-safety.png" alt="Guardrails and safety monitoring dashboard" width="440"> | <img src="docs/screenshots/cost-observability.png" alt="Cost and usage observability dashboard" width="440"> |
 | *Every input/output screened; triggers tracked by category* | *Cost tracked and attributed by feature, department, and user* |
-| ![Agentic efficiency monitoring dashboard](docs/screenshots/agent-efficiency.png) | ![RAG and retrieval quality monitoring dashboard](docs/screenshots/rag-quality.png) |
+| <img src="docs/screenshots/agent-efficiency.png" alt="Agentic efficiency monitoring dashboard" width="440"> | <img src="docs/screenshots/rag-quality.png" alt="RAG and retrieval quality monitoring dashboard" width="440"> |
 | *Tool-call efficiency tracked, with redundant calls flagged automatically* | *Retrieval grounding tracked continuously, tied back into the verification layer* |
 
 *(Illustrative mockups — see [docs/screenshots/](docs/screenshots/) for the shot list.)*
