@@ -110,6 +110,34 @@ Described at the architectural-category level (implementation specifics are inte
 - **Guardrails framework** — input/output safety and scope checks around the reasoning layer
 - **Observability / eval tooling** — logging, tracing, and evaluation of system behavior over time
 
+## Project Structure
+
+High-level module layout of the underlying codebase (the codebase itself is
+private — see [Status](#status) — but the structure below shows how the
+pieces described above map onto it):
+
+```
+financial_analytics/
+├── acquisition/      # SEC Annual/Quarterly Report ingestion from EDGAR
+├── normalization/    # Wide → tidy transform into structured financial facts
+├── metrics/          # Derived metrics, margin bridge, anomaly flags
+├── peers/            # Peer benchmarking
+├── qualitative/      # Footnote / MD&A narrative alignment
+├── rag/              # Chunking, embedding, vector retrieval, rerank
+├── agent/
+│   ├── orchestrator.py  # The single LLM agent — plans and calls tools
+│   ├── critic.py        # Independent, deterministic numeric verification
+│   ├── audit_log.py     # Reconstructable audit trail
+│   └── router/          # Model-tier selection (cost/latency)
+├── api/               # API layer
+├── auth/              # Authentication & role-based access control
+├── admin/             # Admin console — user management, audit log viewer
+├── reports/           # Automated company report generation
+├── guardrails/        # PII, scope, prompt-injection, and toxicity checks
+├── telemetry/         # Cost, agentic-efficiency, and RAG-quality observability
+└── ui/                # Frontend workspace (Next.js)
+```
+
 ## Status
 
 This project is under active development. Core question-answering, verification, and automated report generation are functional; interactive visualization/drill-down and the role-based admin console have also landed. The system is now moving toward a cloud-native deployment architecture to support pilot deployments with early users — see [ROADMAP.md](ROADMAP.md).
