@@ -23,6 +23,12 @@ In short: the reasoning happens like a chatbot, but nothing reaches the user's s
 - **What makes it trustworthy:** every number is independently re-checked against source data before it's shown — errors are surfaced honestly, never guessed past
 - **What it saves:** analyst research time, the cost of decisions made on bad numbers, and the manual effort of after-the-fact auditing
 
+## Product Status
+
+Lectify Analytics has a working prototype validated against live SEC EDGAR data and real language models. It currently operates in a local development environment and is preparing for AWS deployment, multi-user access and production-scale processing.
+
+[View the detailed product status →](PRODUCT_STATUS.md)
+
 ## Benefits & Cost Savings
 
 - **Faster research, lower cost per question** — a question that would normally take an analyst manual time to answer (locating the right report, the right period, the right line item, then cross-checking it) is answered directly, cutting the labor cost of routine research to something close to instant.
