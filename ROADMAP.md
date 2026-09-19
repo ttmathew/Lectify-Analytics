@@ -10,6 +10,7 @@ The foundation of the system: the ability to ask a natural-language question abo
 - Independent verification of every numeric claim before it reaches the user
 - Narrative grounding for qualitative "why" explanations
 - Automated static company reports: performance over a period, peer comparison, industry comparison, insights from annual report narrative, and drivers of change
+- Industry-wide benchmarking — comparing a company against the broader industry it belongs to, not just a named set of peers
 - Audit logging of questions, answers, and verification outcomes
 
 **Status: functional.**
@@ -40,5 +41,5 @@ This is the phase the project is entering next, and it's the basis for pursuing 
 Longer-horizon directions under consideration, contingent on pilot feedback:
 
 - Expanded coverage across company universes and report types
-- Deeper comparative and industry analytics
+- Broader industry-classification coverage and deeper comparative analytics
 - [TODO: fill in additional forward-looking items as priorities firm up]

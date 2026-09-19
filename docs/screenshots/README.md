@@ -17,6 +17,7 @@ Just overwrite the `.png` file with your real screenshot/GIF, using the **same f
 | `verification-status.png` | features.md | A verified figure and, ideally, one flagged as unverifiable — showing both states |
 | `company-report.png` | README, features.md | An automated company report (performance, peer comparison, drivers of change) |
 | `peer-comparison.png` | README, features.md | A peer comparison visualization, ideally mid-drill-down into a data point |
+| `industry-benchmark.png` | README, features.md | An industry benchmark chart: a company plotted against its whole industry's range and percentile, distinct from a named peer comparison |
 | `admin-console.png` | README, features.md | The admin console: user/role management view |
 | `audit-log.png` | features.md | The audit log viewer showing logged questions/answers/verification outcomes |
 | `cost-observability.png` | README, features.md | Cost tracking dashboard: spend trend, breakdown by feature/department/user, flagged outliers |

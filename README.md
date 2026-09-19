@@ -69,6 +69,12 @@ Lectify Analytics has a working prototype validated against live SEC EDGAR data 
 
 *(Illustrative mockups, not live product screenshots, while the product UI is finalized — see [docs/screenshots/](docs/screenshots/) and [docs/features.md](docs/features.md) for the full walkthrough with additional views.)*
 
+**New: industry-wide benchmarking.** Peer comparison measures a company against a named set of companies you choose. Industry benchmarking answers a different question — where does this company stand against the *whole* industry it belongs to, not just the peers you picked?
+
+<img src="docs/screenshots/industry-benchmark.png" alt="Industry benchmark chart" width="640">
+
+*A company plotted against its industry's typical range and percentile — distinct from a named peer comparison. See [docs/features.md](docs/features.md) for more.*
+
 ## Observability & Operational Intelligence
 
 Safety guardrails catch unsafe or out-of-scope behavior. That's necessary but not sufficient for running an agentic AI system in production — you also need to know what it costs, whether it's working efficiently, and whether its retrieval layer is actually grounded. This system treats all four as first-class, continuously tracked signals, not an afterthought:

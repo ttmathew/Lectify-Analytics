@@ -22,6 +22,7 @@ This public document provides a high-level product-status summary. Proprietary s
 | Independent numerical verification      | Working in prototype                                                   |
 | Source-grounded narrative analysis      | Working in prototype                                                   |
 | Peer benchmarking and anomaly detection | Working in prototype                                                   |
+| Industry-wide benchmarking              | Working in prototype                                                   |
 | Authentication and role-based access    | Working in prototype                                                   |
 | Audit logging and administration        | Working in prototype                                                   |
 | Guardrails and observability            | Implemented, with selected enforcement behaviour still being finalized |
@@ -69,6 +70,10 @@ Narrative explanations are grounded in relevant company disclosures, including M
 ### Peer Benchmarking
 
 The prototype supports cross-company comparison and routes appropriate questions to its peer-analysis workflow.
+
+### Industry-Wide Benchmarking
+
+In addition to comparing a company against a named set of peers, the prototype classifies each company into an industry and compares it against the broader set of companies in that same industry — the industry's typical value, the range most companies fall into, and where the company ranks by percentile. This is a distinct comparison from peer benchmarking, which is scoped to a specific, user-selected set of companies. Where there isn't yet enough classified data in an industry to support a meaningful comparison, the system reports that plainly rather than presenting an incomplete one.
 
 ### Authentication and Governance
 

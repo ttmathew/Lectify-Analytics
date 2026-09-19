@@ -70,6 +70,16 @@ flowchart LR
 
 *Example: a peer comparison chart; clicking a point reveals the underlying figures.*
 
+## Benchmark against the whole industry, not just hand-picked peers
+
+Peer comparison is useful when you already know which companies you want to measure against. Sometimes you don't — you just want to know where a company stands relative to its broader industry. This system classifies each company into an industry and shows how it compares against the full range of other companies in that same industry: the industry's typical value, the range most companies fall into, and exactly where this company ranks by percentile.
+
+It's a different question than peer comparison, and it stays honest the same way everything else in this system does: if there isn't yet enough classified data in an industry to produce a meaningful comparison, the system says so plainly rather than showing a distribution built from too few companies.
+
+<img src="screenshots/industry-benchmark.png" alt="Industry benchmark chart" width="640">
+
+*Example: a company's value plotted against its industry's typical range and percentile, distinct from a named peer comparison.*
+
 ## Role-based access and administration
 
 Not every user needs the same level of access. The system supports different user roles and permissions, along with an admin console for managing users, access, and system-level settings — so it can be used by a team, not just a single individual, with appropriate controls in place.
